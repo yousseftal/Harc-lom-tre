@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harcélomètre</title>
+</head>
+<body>
+    <h1>Harcélomètre</h1>
+    <p>Cochez les cases qui s'appliquent à vous :</p>
+    <form id="harcelementForm">
+        <input type="checkbox" id="q1"> On se moque souvent de moi.<br>
+        <input type="checkbox" id="q2"> Je me sens exclu(e).<br>
+        <input type="checkbox" id="q3"> Je reçois des messages méchants.<br>
+        <input type="checkbox" id="q4"> On m'insulte régulièrement.<br>
+        <input type="checkbox" id="q5"> Je suis frappé(e) ou bousculé(e).<br>
+        <br>
+        <button type="button" onclick="analyser()">Analyser</button>
+    </form>
+    <p id="result"></p>
+
+    <script>
+        function analyser() {
+            let checkedBoxes = document.querySelectorAll('input[type="checkbox"]:checked').length;
+            let resultText = "";
+
+            if (checkedBoxes <= 1) {
+                resultText = "Tout semble aller bien. Si quelque chose change, parlez-en à un adulte.";
+            } else if (checkedBoxes <= 3) {
+                resultText = "Vous pourriez être en situation de harcèlement. Parlez-en à quelqu'un de confiance.";
+            } else {
+                resultText = "Il est important de demander de l'aide. Parlez-en immédiatement à un adulte.";
+            }
+
+            document.getElementById("result").innerText = resultText;
+        }
+    </script>
+</body>
+</html>
