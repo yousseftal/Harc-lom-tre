@@ -1,5 +1,6 @@
 #EXTM3U
 # Filtre légal: 0 flux privés/à risque exclus
+# Vérification fichier utilisateur: 88 liens testés, 43 actifs; doublons renommés en secours: 1
 # Import fichier utilisateur: 26 nouveaux liens testés, 3 actifs, 3 ajoutés (3 nouvelles chaînes, 0 secours)
 # Ajouts Tunisie vérifiés: 0 flux ajoutés, 0 nouvelles chaînes, 25 candidats testés
 # Ajouts vérifiés Internet: 4 flux actifs sur 4 chaînes
@@ -779,7 +780,7 @@ https://qatartv.akamaized.net/hls/live/20000611/qtv2/master.m3u8
 https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8
 #EXTINF:-1 tvg-id="QBC.qa@HD" tvg-logo="https://www.qbc.news/_next/static/media/logo.0~2x9wpd284~a.svg" group-title="Qatar",QBC (1080p)
 https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8
-#EXTINF:-1 tvg-id="QatarTelevisionTheHolyQuran.qa" tvg-logo="https://i.imgur.com/N5RB4sp.png" group-title="Qatar",Qatar Television The Holy Quran
+#EXTINF:-1 tvg-id="QatarTVTheHolyQuran.qa@HD" tvg-logo="https://i.imgur.com/N5RB4sp.png" group-title="Qatar",Qatar TV The Holy Quran (Secours 2)
 https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master1080p.m3u8
 
 # ===== ÉMIRATS ARABES UNIS (35 entrées) =====
