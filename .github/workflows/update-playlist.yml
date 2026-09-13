@@ -10,6 +10,7 @@ on:
       - 'tools/add_verified_extras.py'
       - 'tools/add_tunisia_extras.py'
       - 'tools/add_deep_research_extras.py'
+      - 'tools/add_deep_research_round2.py'
       - '.github/workflows/update-playlist.yml'
   workflow_dispatch:
 
@@ -40,6 +41,8 @@ jobs:
         run: python3 tools/add_tunisia_extras.py
       - name: Deep research of public Arabic and French streams
         run: python3 tools/add_deep_research_extras.py
+      - name: Second-wave Tunisia Kuwait Oman research
+        run: python3 tools/add_deep_research_round2.py
       - name: Final legal filter
         run: python3 tools/legal_filter.py
       - name: Commit generated playlist
