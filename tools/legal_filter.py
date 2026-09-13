@@ -7,6 +7,7 @@ PATH = "france-maghreb.m3u"
 # Includes private credentialled IPTV hosts and CDN families explicitly
 # identified in public takedown reports from rights holders.
 BLOCKED = (
+    "ip.xtremetv.eu",
     "m-iptv.net",
     "sigma-iptv.net",
     "vip-max.com",
