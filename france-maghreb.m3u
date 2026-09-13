@@ -1,0 +1,99 @@
+#EXTM3U
+# Playlist France + Maghreb - flux gratuits/publics
+# Sources principales: diffuseurs/CDN publics, Free-TV et IPTV-org
+
+# ===== FRANCE / FRANCOPHONE =====
+#EXTINF:-1 tvg-id="ARTEFrench.fr" group-title="FRANCE",ARTE
+https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8
+#EXTINF:-1 tvg-id="20MinutesTV.fr" group-title="FRANCE",20 Minutes TV
+https://live-20minutestv.digiteka.com/1961167769/index.m3u8
+#EXTINF:-1 tvg-id="ADNTVPlus.fr" group-title="FRANCE",ADN TV+
+https://d3b73b34o7cvkq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gz2sgqzp076kf/adn.m3u8
+#EXTINF:-1 tvg-id="Africa24.fr" group-title="FRANCE",Africa 24
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+#EXTINF:-1 tvg-id="Africa24Sport.fr" group-title="FRANCE",Africa 24 Sport
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+#EXTINF:-1 tvg-id="AfricanewsFrench.fr" group-title="FRANCE",Africanews Français
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
+#EXTINF:-1 tvg-id="AlpedHuezTV.fr" group-title="FRANCE",Alpe d'Huez TV
+https://edge13.vedge.infomaniak.com/livecast/ik:adhtv/manifest.m3u8
+#EXTINF:-1 tvg-id="AntenneReunion.fr" group-title="FRANCE",Antenne Réunion
+https://live-antenne-reunion.zeop.tv/live/c3eds/antreunihd/hls_fta/antreunihd.m3u8?location=ZEOP01
+#EXTINF:-1 tvg-id="BFM2.fr" group-title="FRANCE",BFM2
+https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
+#EXTINF:-1 tvg-id="BFMBusiness.fr" group-title="FRANCE",BFM Business
+https://live-cdn-stream-euw1.bfmb.bct.nextradiotv.com/master.m3u8
+#EXTINF:-1 tvg-id="BFMLyon.fr" group-title="FRANCE",BFM Lyon
+https://live-cdn-bfmtvlyo-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
+#EXTINF:-1 tvg-id="BFMTV.fr" group-title="FRANCE",BFM TV
+https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
+#EXTINF:-1 tvg-id="BrionnaisTV.fr" group-title="FRANCE",Brionnais TV
+https://stream2.mandarine.media/brionnaistv/brionnaistv/playlist.m3u8
+#EXTINF:-1 tvg-id="CannesLerinsTV.fr" group-title="FRANCE",Cannes Lérins TV
+https://vdo2.pro-fhi.net:3628/live/uppodsfqlive.m3u8
+#EXTINF:-1 tvg-id="CGTNFrench.cn" group-title="FRANCE",CGTN Français
+https://news.cgtn.com/resource/live/french/cgtn-f.m3u8
+#EXTINF:-1 tvg-id="DBMTV.fr" group-title="FRANCE",DBM TV
+https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8
+#EXTINF:-1 tvg-id="EuronewsFrench.fr" group-title="FRANCE",Euronews Français
+https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8
+#EXTINF:-1 tvg-id="FashionTVParisLOriginal.fr" group-title="FRANCE",FashionTV Paris L'Original
+https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
+#EXTINF:-1 tvg-id="France24French.fr" group-title="FRANCE",France 24 Français
+https://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8
+#EXTINF:-1 tvg-id="HandicapTV.fr" group-title="FRANCE",Handicap TV
+https://srv.webtvmanager.fr:3697/stream/play.m3u8
+#EXTINF:-1 tvg-id="TV5MondeInfo.fr" group-title="FRANCE",TV5MONDE Info
+https://ott.tv5monde.com/Content/HLS/Live/channel(info)/index.m3u8
+#EXTINF:-1 tvg-id="TV5MondeFranceBelgiumSwitzerland.fr" group-title="FRANCE",TV5MONDE FBS
+https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/index.m3u8
+#EXTINF:-1 tvg-id="TV5MondeEurope.fr" group-title="FRANCE",TV5MONDE Europe
+https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/index.m3u8
+
+# ===== ALGERIE =====
+#EXTINF:-1 tvg-id="AL24News.dz" group-title="ALGERIE",AL24 News
+https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
+#EXTINF:-1 tvg-id="AmouYazidTV.dz" group-title="ALGERIE",Amou Yazid TV
+http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8
+#EXTINF:-1 tvg-id="CNA.dz" group-title="ALGERIE",CNA - Chaîne Nord Africaine
+https://live.creacast.com/cna/stream/playlist.m3u8
+#EXTINF:-1 tvg-id="ElHeddafTV.dz" group-title="ALGERIE",El Heddaf TV
+https://live.elheddaftv.com:8081/elheddaftv/index.m3u8
+
+# ===== MAROC =====
+#EXTINF:-1 tvg-id="2MMonde.ma" group-title="MAROC",2M Monde
+#EXTVLCOPT:http-referrer=http://www.radio2m.ma/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8
+#EXTINF:-1 tvg-id="2MMonde.ma" group-title="MAROC",2M Monde +1
+https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
+#EXTINF:-1 tvg-id="ChadaTV.ma" group-title="MAROC",Chada TV
+https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8
+#EXTINF:-1 tvg-id="Medi1TVAfrique.ma" group-title="MAROC",Medi1TV Afrique
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist.m3u8
+#EXTINF:-1 tvg-id="Medi1TVArabic.ma" group-title="MAROC",Medi1TV Arabic
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8
+#EXTINF:-1 tvg-id="Medi1TVMaghreb.ma" group-title="MAROC",Medi1TV Maghreb
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8
+#EXTINF:-1 tvg-id="StoryChannelTV.ma" group-title="MAROC",StoryChannel TV
+https://136044159.r.cdnsun.net/storychannel.m3u8
+
+# ===== TUNISIE =====
+#EXTINF:-1 tvg-id="ElWatania1.tn" group-title="TUNISIE",El Watania 1
+https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8
+#EXTINF:-1 tvg-id="ElWatania2.tn" group-title="TUNISIE",El Watania 2
+https://sw1.tanitweb.net/TunisiaTV/_definst_/watania2/playlist.m3u8?DVR
+#EXTINF:-1 tvg-id="JawharaTV.tn" group-title="TUNISIE",Jawhara TV
+https://streaming.toutech.net/live/jtv/index.m3u8
+#EXTINF:-1 tvg-id="MosaiqueFM.tn" group-title="TUNISIE",Mosaique FM TV
+https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR
+
+# ===== INFO ARABE GRATUITE =====
+#EXTINF:-1 tvg-id="France24Arabic.fr" group-title="ARABE - INFO",France 24 Arabic
+https://static.france24.com/live/F24_AR_HI_HLS/live_tv.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraArabic.qa" group-title="ARABE - INFO",Al Jazeera Arabic
+https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+#EXTINF:-1 tvg-id="SkyNewsArabia.ae" group-title="ARABE - INFO",Sky News Arabia
+https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8
+#EXTINF:-1 tvg-id="DWArabic.de" group-title="ARABE - INFO",DW Arabic
+https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
