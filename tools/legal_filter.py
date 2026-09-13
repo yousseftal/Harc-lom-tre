@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 import re
+from urllib.parse import urlparse
 
 PATH = "france-maghreb.m3u"
 
 # URLs/hosts that should not be redistributed in this public playlist.
-# Includes private credentialled IPTV hosts and CDN families explicitly
-# identified in public takedown reports from rights holders.
+# Includes private credentialled IPTV hosts, known unauthorised relay IPs and
+# CDN families explicitly identified as unsuitable for redistribution here.
 BLOCKED = (
     "ip.xtremetv.eu",
     "m-iptv.net",
@@ -13,6 +14,9 @@ BLOCKED = (
     "vip-max.com",
     "janjua.pw",
     "freechannelsonly.xyz",
+    "89.187.185.76:8080",
+    "5.180.164.197:8080",
+    "151.80.18.177:86",
     "mbc1-enc.edgenextcdn.net",
     "shls-live-enc.edgenextcdn.net",
     "wanasah-prod-dub-enc.edgenextcdn.net",
@@ -20,6 +24,14 @@ BLOCKED = (
     "d2hng5r56zpsbw.cloudfront.net",
     "d2lfa0y84k5bwn.cloudfront.net",
     "d2ow8h651gs7dx.cloudfront.net",
+)
+
+# Obvious subscription/premium services must never be added just because an
+# unauthorised public-looking relay happens to answer HTTP 200.
+PREMIUM_RE = re.compile(
+    r"(?i)(canal\s*\+|canal\s*plus|be\s*in\s*sports?|\bocs\b|cin[ée]\s*\+|"
+    r"rmc\s*sport|eurosport|dazn|disney\s*channel|warner\s*tv|\btcm\b|"
+    r"plan[èe]te\s*\+|polar\s*\+|national\s*geographic|13[èe]me\s*rue|syfy)"
 )
 
 ATTR_RE = re.compile(r'([\w-]+)="([^"]*)"')
@@ -48,9 +60,16 @@ kept = []
 removed = []
 for block in entries:
     url = next((x.strip() for x in reversed(block[1:]) if x.strip() and not x.startswith("#")), "")
+    name = block[0].split(",", 1)[1] if "," in block[0] else block[0]
     low = url.casefold()
-    if any(b.casefold() in low for b in BLOCKED):
-        name = block[0].split(",", 1)[1] if "," in block[0] else block[0]
+    blocked = any(b.casefold() in low for b in BLOCKED)
+    try:
+        parsed = urlparse(url)
+        blocked = blocked or bool(parsed.username or parsed.password)
+    except Exception:
+        blocked = True
+    blocked = blocked or bool(PREMIUM_RE.search(name))
+    if blocked:
         removed.append((name, url))
         continue
     kept.append(block)
@@ -73,7 +92,7 @@ for line in header:
     if line.strip():
         clean_header.append(line)
 clean_header.insert(1 if clean_header and clean_header[0].startswith("#EXTM3U") else 0,
-                    f"# Filtre légal: {len(removed)} flux privés/à risque exclus")
+                    f"# Filtre légal: {len(removed)} flux privés/premium/à risque exclus")
 
 out = clean_header + [""]
 for country in order:
@@ -87,5 +106,5 @@ with open(PATH, "w", encoding="utf-8", newline="\n") as f:
     f.write("\n".join(out).rstrip() + "\n")
 
 print(f"Legal filter: removed {len(removed)} entries")
-for name, url in removed[:30]:
+for name, url in removed[:50]:
     print("REMOVED", name, url)
