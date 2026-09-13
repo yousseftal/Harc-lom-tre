@@ -1,11 +1,13 @@
 #EXTM3U
+# Filtre légal: 0 flux privés/à risque exclus
+# Ajouts vérifiés Internet: 4 flux actifs sur 4 chaînes
 # Flux de secours ajoutés: 146 (jusqu'à 3 liens par chaîne)
 # Chaînes arabes et francophones — flux gratuits/publics
 # Total après déduplication: 810
 # Classées par pays. Doublons, pages Web et chaînes payantes évidentes exclus.
 # Sources: IPTV-org, Free-TV, FreeCastHub, Chaipa
 
-# ===== FRANCE (131) =====
+# ===== FRANCE (167 entrées) =====
 #EXTINF:-1 tvg-id="20MinutesTV.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png" group-title="France",20 Minutes TV (1080p)
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
 #EXTINF:-1 tvg-id="6ter.fr@SD" tvg-logo="https://i.imgur.com/2nd5Cox.png" group-title="France",6ter (1080p)
@@ -363,7 +365,7 @@ https://amg00711-zylo-amg00711c10-rakuten-fr-6731.playouts.now.amagi.tv/playlist
 #EXTINF:-1 tvg-id="ScreamIN.fr@SD" tvg-logo="https://i.imgur.com/tGmKbil.png" group-title="France",Zylo ScreamIN (1080p)
 https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8
 
-# ===== ALGÉRIE (6) =====
+# ===== ALGÉRIE (9 entrées) =====
 #EXTINF:-1 tvg-id="AL24News.dz@SD" tvg-logo="https://i.imgur.com/vyVEXYL.png" group-title="Algérie",AL24 News
 https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
 #EXTINF:-1 tvg-id="AmouYazidTV.dz@SD" tvg-logo="https://i.imgur.com/L8UPGPC.png" group-title="Algérie",Amou Yazid TV (576p)
@@ -380,8 +382,10 @@ https://livesstream.work.gd:5443/WebRTCApp/streams/stream.m3u8
 http://185.9.2.18/chid_347/index.m3u8
 #EXTINF:-1 tvg-id="TV2.dz@SD" tvg-logo="https://i.imgur.com/VEb631f.png" group-title="Algérie",TV2 (Secours 2)
 http://88.212.15.19/live/test_tv_2_hungary_1200_atk/playlist.m3u8
+#EXTINF:-1 tvg-id="AL24News.dz" group-title="Algérie",AL24 News (Secours vérifié 2)
+https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/playlist.m3u8
 
-# ===== MAROC (10) =====
+# ===== MAROC (15 entrées) =====
 #EXTINF:-1 tvg-id="2M.ma@SD" tvg-logo="https://i.imgur.com/PJYTfHi.png" group-title="Maroc",2M
 http://185.9.2.18/chid_218/index.m3u8
 #EXTINF:-1 tvg-id="2MMonde.ma@SD" tvg-logo="https://i.imgur.com/MvpntzA.png" http-referrer="http://www.radio2m.ma/" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" group-title="Maroc",2M Monde (360p)
@@ -417,7 +421,7 @@ https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist_d
 #EXTINF:-1 tvg-id="StoryChannelTV.ma@SD" tvg-logo="https://i.imgur.com/ZBV6xph.png" group-title="Maroc",StoryChannel TV (720p)
 https://136044159.r.cdnsun.net/storychannel.m3u8
 
-# ===== TUNISIE (4) =====
+# ===== TUNISIE (4 entrées) =====
 #EXTINF:-1 tvg-id="ElWatania1.tn@SD" tvg-logo="https://i.imgur.com/gNr2V14.png" group-title="Tunisie",El Watania 1 (1080i)
 https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8
 #EXTINF:-1 tvg-id="ElWatania2.tn@SD" tvg-logo="https://i.imgur.com/kgkrD3V.png" group-title="Tunisie",El Watania 2 (1080p)
@@ -427,7 +431,7 @@ http://streaming.toutech.net:1935/live/mp4:jawharafm.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="MosaiqueFM.tn@SD" tvg-logo="https://i.imgur.com/GDUykah.png" group-title="Tunisie",Mosaique FM (1080p)
 https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR
 
-# ===== ÉGYPTE (17) =====
+# ===== ÉGYPTE (14 entrées) =====
 #EXTINF:-1 tvg-id="AghapyTV.eg@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/eb/AghapyTV.jpg" group-title="Égypte",Aghapy TV (1080p) [Not 24/7]
 https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlGhadTV.eg@SD" tvg-logo="https://i.imgur.com/ga6NXb9.png" group-title="Égypte",Al Ghad TV (1080p)
@@ -448,12 +452,6 @@ https://9090video.mobtada.com/hls/stream.m3u8
 https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Mazzika.eg@SD" tvg-logo="https://i.imgur.com/P7PUHIx.png" group-title="Égypte",Mazzika (576p)
 http://149.100.11.235:8080/Mazzika/index.m3u8
-#EXTINF:-1 tvg-id="MBC1Egypt.eg@HD" tvg-logo="https://i.imgur.com/CiA3plN.png" group-title="Égypte",MBC 1 Egypt (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8
-#EXTINF:-1 tvg-id="MBCMasr.eg@SD" tvg-logo="https://i.imgur.com/o2elx0u.png" group-title="Égypte",MBC Masr (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8
-#EXTINF:-1 tvg-id="MBCMasr2.eg@SD" tvg-logo="https://i.imgur.com/KHo7Gtn.png" group-title="Égypte",MBC Masr 2 (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8
 #EXTINF:-1 tvg-id="MixHollywood.eg@SD" tvg-logo="https://i.imgur.com/1ENdbZn.png" group-title="Égypte",Mix Hollywood (1080p)
 https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
 #EXTINF:-1 tvg-id="NogoumFMTV.eg@SD" tvg-logo="https://i.imgur.com/krp3kgv.png" group-title="Égypte",NogoumFMTV (672p) [Not 24/7]
@@ -464,7 +462,7 @@ https://rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/playlist.
 #EXTINF:-1 tvg-id="WatanTV.eg@SD" tvg-logo="https://i.imgur.com/pZyKaUH.png" group-title="Égypte",Watan TV (1080p)
 https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8
 
-# ===== LIBAN (30) =====
+# ===== LIBAN (32 entrées) =====
 #EXTINF:-1 tvg-id="AghaniAghaniTV.lb@SD" tvg-logo="https://i.imgur.com/o6HSfNg.png" group-title="Liban",Aghani Aghani TV (1080p)
 https://cdn.streamlane.tv/hls/aghanitv/index.m3u8
 #EXTINF:-1 tvg-id="AlIttihadTV.lb@SD" tvg-logo="https://i.imgur.com/QMUjPXx.png" group-title="Liban",Al Ittihad (552p) [Not 24/7]
@@ -493,8 +491,6 @@ https://cdn.streamlane.tv/hls/ltv/master.m3u8
 http://185.9.2.18/chid_521/index.m3u8
 #EXTINF:-1 tvg-id="mfm.lb@HD" tvg-logo="https://www.mtv.com.lb/images/header/mfm-logo.svg" group-title="Liban",mfm (1080p)
 https://hms.pfs.gdn/hms/v1/broadcast/hlmvmp2hfriode891/playlist.m3u8
-#EXTINF:-1 tvg-id="MTVLebanon.lb@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/75/Murr_tv.png" group-title="Liban",MTV Lebanon (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mtv-lebanon/b8ebb2a5affb812f1541712adde10e26/index.m3u8
 #EXTINF:-1 tvg-id="NabaaTV.lb@SD" tvg-logo="https://i.imgur.com/p8eRgSs.png" group-title="Liban",Nabaa TV (720p) [Not 24/7]
 http://31.14.40.237:1935/live/Nabaa/playlist.m3u8
 #EXTINF:-1 tvg-id="NourAlKoddass.lb@SD" tvg-logo="https://i.imgur.com/dF4Mvts.png" group-title="Liban",Nour Al Koddas (406p) [Not 24/7]
@@ -532,7 +528,7 @@ https://cdn.catiacast.video/abr/9436b5ab3c1171ab04a59af11951292f/playlist.m3u8
 #EXTINF:-1 tvg-id="VoiceofLebanon.lb@SD" tvg-logo="https://i.imgur.com/f8WcqRY.png" group-title="Liban",Voice of Lebanon (1080p)
 https://svs.itworkscdn.net/vdltvlive/vdltv.smil/playlist.m3u8
 
-# ===== JORDANIE (18) =====
+# ===== JORDANIE (18 entrées) =====
 #EXTINF:-1 tvg-id="AlerthAlnabawiChannel.jo@SD" tvg-logo="https://i.imgur.com/iYibJxK.png" group-title="Jordanie",Alerth Alnabawi Channel (576p)
 http://82.212.74.2:8000/live/7307.m3u8
 #EXTINF:-1 tvg-id="AlhaqeqaAldawlia.jo@SD" tvg-logo="" group-title="Jordanie",Alhaqeqa Aldawlia (1080p) [Not 24/7]
@@ -570,7 +566,7 @@ http://45.63.116.205/hls/stream1.m3u8
 #EXTINF:-1 tvg-id="RotanaTarabJordanCityView.jo@SD" tvg-logo="https://i.imgur.com/NjgOBts.png" group-title="Jordanie",Rotana Tarab Jordan City View (720p) [Not 24/7]
 http://45.63.116.205/hls3/stream1.m3u8
 
-# ===== PALESTINE (19) =====
+# ===== PALESTINE (19 entrées) =====
 #EXTINF:-1 tvg-id="AjyalTV.ps@SD" tvg-logo="https://i.imgur.com/i6Y7beR.jpg" group-title="Palestine",Ajyal TV (720p)
 http://htvajyal.mada.ps:8888/ajyal/index.m3u8
 #EXTINF:-1 tvg-id="AlMadina.ps@SD" tvg-logo="https://i.imgur.com/NVOeM3P.png" group-title="Palestine",Al Madina (720p)
@@ -614,7 +610,7 @@ http://htvint.mada.ps:8889/orient/index.m3u8
 #EXTINF:-1 tvg-id="WattanTV.ps@SD" tvg-logo="https://i.imgur.com/sf2A9vT.png" group-title="Palestine",Wattan TV
 https://htvmada.mada.ps:4443/wattan/index.m3u8
 
-# ===== IRAK (36) =====
+# ===== IRAK (40 entrées) =====
 #EXTINF:-1 tvg-id="ABNsat.iq@SD" tvg-logo="https://i.imgur.com/WhPlJzh.jpeg" group-title="Irak",ABNsat (720p)
 https://mediaserver.abnvideos.com/streams/abnsat.m3u8
 #EXTINF:-1 tvg-id="AfaqTV.iq@SD" tvg-logo="https://i.imgur.com/t7CaTu3.png" group-title="Irak",Afaq TV
@@ -684,8 +680,6 @@ https://hlspackager.akamaized.net/live/DB/KURDSAT_NEWS/HLS/KURDSAT_NEWS.m3u8
 https://vmi747311.contaboserver.net/hls/livetv.m3u8
 #EXTINF:-1 tvg-id="MarjaeyatTVArabic.iq@SD" tvg-logo="https://i.imgur.com/LsYYkUI.png" group-title="Irak",Marjaeyat TV Arabic (1080p)
 https://livefa.marjaeyattv.com/mtv_ar/playlist.m3u8
-#EXTINF:-1 tvg-id="MBCIraq.iq@SD" tvg-logo="https://i.imgur.com/D0LxiPE.png" group-title="Irak",MBC Iraq (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8
 #EXTINF:-1 tvg-id="SamarraTV.iq@SD" tvg-logo="https://i.imgur.com/7uQoIXi.png" group-title="Irak",Samarra TV
 https://live.bradosti.net/live/samaraweb_playlist.m3u8
 #EXTINF:-1 tvg-id="ShamsTV.iq@SD" tvg-logo="https://www.semakurd.net/sites/default/files/imagecache/400xY/shemis-tv.jpg" group-title="Irak",Shams TV (1080p)
@@ -699,9 +693,7 @@ https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8
 #EXTINF:-1 tvg-id="ZagrosTV.iq@SD" tvg-logo="https://i.imgur.com/9Mspf32.png" group-title="Irak",Zagros TV (Secours 2)
 https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8
 
-# ===== SYRIE (11) =====
-#EXTINF:-1 tvg-id="AlSouriyaTV.sy@HD" tvg-logo="https://i.imgur.com/8FILgXT.jpeg" group-title="Syrie",Al-Souriya TV (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8
+# ===== SYRIE (10 entrées) =====
 #EXTINF:-1 tvg-id="AlalamNewsChannelSyria.sy@SD" tvg-logo="https://i.imgur.com/WQKYPKD.png" group-title="Syrie",Alalam News Channel Syria (1080p)
 http://live2.alalam.ir/live/Alalam/index.m3u8
 #EXTINF:-1 tvg-id="AlikhbariaSyria.sy@SD" tvg-logo="https://alikhbariah.com/wp-content/themes/alekhbariah-custom-theme/img/logo.webp" group-title="Syrie",Alikhbaria Syria (1080p)
@@ -723,7 +715,7 @@ https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="WelatTV.sy@HD" tvg-logo="https://avatars.githubusercontent.com/u/213803648?s=400&u=e27c09d39f813b9698de9c6559cbf7f196bf6fce&v=4" group-title="Syrie",Welat TV (1080i)
 https://stream.badinan.xyz/welat/tv/playlist.m3u8
 
-# ===== QATAR (23) =====
+# ===== QATAR (29 entrées) =====
 #EXTINF:-1 tvg-id="AlArabyTV.qa@SD" tvg-logo="https://i.imgur.com/YMqWEe4.png" group-title="Qatar",Al Araby TV (1080p)
 https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="AlArabyTV2.qa@SD" tvg-logo="https://i.imgur.com/Gp5mNea.png" group-title="Qatar",Al Araby TV 2 (1080p)
@@ -784,7 +776,7 @@ https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8
 #EXTINF:-1 tvg-id="QBC.qa@HD" tvg-logo="https://www.qbc.news/_next/static/media/logo.0~2x9wpd284~a.svg" group-title="Qatar",QBC (1080p)
 https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8
 
-# ===== ÉMIRATS ARABES UNIS (31) =====
+# ===== ÉMIRATS ARABES UNIS (35 entrées) =====
 #EXTINF:-1 tvg-id="AjmanTV.ae@SD" tvg-logo="https://i.imgur.com/hVNIwgE.png" group-title="Émirats arabes unis",Ajman TV (1080p)
 https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Alarabiya.ae@SD" tvg-logo="https://shahid.mbc.net/mediaObject/a4c125db-ede8-4970-9eed-963948c78651?height=auto&width=512&croppingPoint=&version=1&type=png" group-title="Émirats arabes unis",Al Arabiya (1080p)
@@ -811,18 +803,6 @@ https://cnbc-live.akamaized.net/cnbc/master.m3u8
 http://185.9.2.18/chid_139/index.m3u8
 #EXTINF:-1 tvg-id="FujairahTV.ae@SD" tvg-logo="https://i.imgur.com/D2tOhbE.png" group-title="Émirats arabes unis",Fujairah TV (720p)
 https://live.kwikmotion.com/fujairahlive/fujairah.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MBC1.ae@SD" tvg-logo="https://i.imgur.com/CiA3plN.png" group-title="Émirats arabes unis",MBC 1 (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
-#EXTINF:-1 tvg-id="MBC4.ae@SD" tvg-logo="https://i.imgur.com/BcXASJp.png" group-title="Émirats arabes unis",MBC 4 (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8
-#EXTINF:-1 tvg-id="MBC5.ae@SD" tvg-logo="https://i.imgur.com/fRWaDyF.png" group-title="Émirats arabes unis",MBC 5 (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8
-#EXTINF:-1 tvg-id="MBCBollywood.ae@SD" tvg-logo="https://i.imgur.com/TTAGFHG.png" group-title="Émirats arabes unis",MBC Bollywood (1080p) [Geo-blocked]
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
-#EXTINF:-1 tvg-id="MBCDrama.ae@SD" tvg-logo="https://i.imgur.com/g5PWnqp.png" group-title="Émirats arabes unis",MBC Drama (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8
-#EXTINF:-1 tvg-id="MBCDrama.ae@SD" tvg-logo="https://i.imgur.com/g5PWnqp.png" group-title="Émirats arabes unis",MBC Drama (Secours 2)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8
 #EXTINF:-1 tvg-id="Pulse95Radio.ae@SD" tvg-logo="https://maraya.faulio.com/storage/mediagallery/60/26/fullhd_d5c3c81b0562a76bc63f073a5e0947f309b0215b.png" group-title="Émirats arabes unis",Pulse95 Radio (1080p)
 https://svs.itworkscdn.net/pulse95live/pulse96/playlist.m3u8
 #EXTINF:-1 tvg-id="Sharjah2.ae@SD" tvg-logo="https://i.imgur.com/Wd3Xvd1.png" group-title="Émirats arabes unis",Sharjah 2 (1080p)
@@ -865,20 +845,16 @@ https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8
 https://svs.itworkscdn.net/smcwatarlive/smcwatar/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeAlwan.ae@SD" tvg-logo="https://i.imgur.com/OLuCox7.png" group-title="Émirats arabes unis",Zee Alwan (576p) [Not 24/7]
 https://tgn.bozztv.com/gin-dvrfl05/ga-zeealwan/index.m3u8
+#EXTINF:-1 tvg-id="SharjahTV.ae" group-title="Émirats arabes unis",Sharjah TV (Secours vérifié 2)
+https://cdn-globecast.akamaized.net/live/eds/sharjah_tv/hls_roku/index.m3u8
 
-# ===== ARABIE SAOUDITE (53) =====
-#EXTINF:-1 tvg-id="AbdulmajeedAbdullah.sa@SD" tvg-logo="https://assets.mbcmood.com/channels/1720184087Abdullah%20Majeed%20Abdullah%20banner.png" group-title="Arabie saoudite",Abdulmajeed Abdullah (1080p)
-https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8
+# ===== ARABIE SAOUDITE (46 entrées) =====
 #EXTINF:-1 tvg-id="Aflam.sa@SD" tvg-logo="https://i.imgur.com/cTLj7Yt.png" group-title="Arabie saoudite",Aflam (1080p)
 https://shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8
 #EXTINF:-1 tvg-id="AlAlamAlYawm.sa@SD" tvg-logo="https://i.imgur.com/aAGjAoW.png" group-title="Arabie saoudite",Al Alam Al Yawm
 https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b928000.m3u8
-#EXTINF:-1 tvg-id="AlEkhbariya.sa@SD" tvg-logo="https://i.imgur.com/WcRlHQm.png" group-title="Arabie saoudite",Al Ekhbariya (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8
 #EXTINF:-1 tvg-name="Al Hadath العربية" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ae/Al_Hadath_TV_logo_2023.svg" tvg-id="AlHadath.sa" tvg-chno="3" group-title="Arabie saoudite",Al Hadath العربية
 https://live.alarabiya.net/alarabiapublish/alhadath.smil/alarabiapublish/alhadath_1080p/chunks.m3u8
-#EXTINF:-1 tvg-name="Al Hadath العربية" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ae/Al_Hadath_TV_logo_2023.svg" tvg-id="AlHadath.sa" tvg-chno="3" group-title="Arabie saoudite",Al Hadath العربية (Secours 2)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8
 #EXTINF:-1 tvg-name="Al Hadath العربية" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ae/Al_Hadath_TV_logo_2023.svg" tvg-id="AlHadath.sa" tvg-chno="3" group-title="Arabie saoudite",Al Hadath العربية (Secours 3)
 https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Al Quran Al Kareem TV" tvg-logo="https://i.imgur.com/A2fJysM.png" tvg-id="AlQuranAlKareemTV.sa" tvg-chno="9" tvg-country="SA" group-title="Arabie saoudite",Al Quran Al Kareem TV
@@ -890,10 +866,6 @@ http://m.live.net.sa:1935/live/quran/gmswf.m3u8
 https://rotana.hibridcdn.net/rotananet/risala_net-7Y83PP5adWixDF93/playlist.m3u8
 #EXTINF:-1 tvg-id="AlRiyadhRadio.sa@SD" tvg-logo="https://aloula.faulio.com/storage/mediagallery/37/1a/fullhd_399eddcc4305f34f41c7fab24c3518fab5d55d97.png" group-title="Arabie saoudite",Al Riyadh Radio (1080p)
 https://live.kwikmotion.com/sbrksariyadhradiolive/srpksariyadhradio/playlist.m3u8
-#EXTINF:-1 tvg-id="AlSaudiya.sa@SD" tvg-logo="https://i.imgur.com/GRQTndk.png" group-title="Arabie saoudite",Al Saudiya (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8
-#EXTINF:-1 tvg-id="AlSaudiyaAlaan.sa@SD" tvg-logo="https://i.imgur.com/sEOjApe.png" group-title="Arabie saoudite",Al Saudiya Alaan (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8
 #EXTINF:-1 tvg-id="AlSunnahAlNabawiyahTV.sa@SD" tvg-logo="https://aloula.faulio.com/storage/mediagallery/33/92/fullhd_879e557011826f507a045b4e0b4c3b57ba93edae.png" group-title="Arabie saoudite",Al Sunnah Al Nabawiyah TV (720p)
 http://m.live.net.sa:1935/live/sunnah/gmswf.m3u8
 #EXTINF:-1 tvg-id="AlkhuzamaRadio.sa@SD" tvg-logo="https://shahid.mbc.net/mediaObject/61010cbc-91c5-4ce1-94a4-ed40adadb97b" group-title="Arabie saoudite",Alkhuzama Radio (1080p)
@@ -912,8 +884,6 @@ https://svs.itworkscdn.net/asharqradiovlive/asharqradiov/playlist.m3u8
 https://5aafcc5de91f1.streamlock.net/atfal1.com/atfal2/playlist.m3u8
 #EXTINF:-1 tvg-id="BabAlHara.sa@SD" tvg-logo="https://i.imgur.com/QtlnZbq.png" group-title="Arabie saoudite",Bab Al Hara (1080p)
 https://shd-amg-fast.edgenextcdn.net/tx010/playlist.m3u8
-#EXTINF:-1 tvg-id="BigTimePlus.sa@SD" tvg-logo="https://shahid.mbc.net/mediaObject/4e042cb6-500b-4e4c-a8ca-21a5a7a7a71b" group-title="Arabie saoudite",Big Time Plus (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-big-time-plus/924283f994779a311c1389698ff7e736/index.m3u8
 #EXTINF:-1 tvg-id="DrPalTV.sa@SD" tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Dr%20Pal%20TV.jpeg" group-title="Arabie saoudite",Dr Pal TV (720p)
 https://stream.cisk.tech/drpal/index.m3u8
 #EXTINF:-1 tvg-id="Fairuz.sa@HD" tvg-logo="https://shahid.mbc.net/mediaObject/f809d51c-e83d-43c9-8236-78731c2216ad?type=png" group-title="Arabie saoudite",Fairuz (1080p)
@@ -934,16 +904,6 @@ https://shd-amg-fast.edgenextcdn.net/tx019/playlist.m3u8
 https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 #EXTINF:-1 tvg-id="Maraya.sa@HD" tvg-logo="https://shahid.mbc.net/mediaObject/d089a559-4f41-4def-a786-f98fcfbf0464?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="Arabie saoudite",Maraya (1080p)
 https://shd-amg-fast.edgenextcdn.net/tx008/playlist.m3u8
-#EXTINF:-1 tvg-id="MBCMasrDrama.sa@SD" tvg-logo="https://media0070.elcinema.com/tvguide/1399_1.png" group-title="Arabie saoudite",MBC Masr Drama (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
-#EXTINF:-1 tvg-id="MBCMood.sa@HD" tvg-logo="https://shahid.mbc.net/mediaObject/c2b6a882-458b-446e-b0fe-f97f7992149a?height=auto&width=144&croppingPoint=&version=1&type=png" group-title="Arabie saoudite",MBC Mood (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-mood/78367bf48ccdba501d0d014a10c21031/index.m3u8
-#EXTINF:-1 tvg-id="MBCPlusDrama.sa@SD" tvg-logo="https://i.imgur.com/lxWdjXG.png" group-title="Arabie saoudite",MBC+ Drama (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8
-#EXTINF:-1 tvg-id="MBCPlusDrama.sa@SD" tvg-logo="https://i.imgur.com/lxWdjXG.png" group-title="Arabie saoudite",MBC+ Drama (Secours 2)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8
-#EXTINF:-1 tvg-id="MohammedAbdo.sa@SD" tvg-logo="https://assets.mbcmood.com/channels/1720184012Mohammed%20Abdo%20banner.png" group-title="Arabie saoudite",Mohammed Abdo (1080p)
-https://d2ow8h651gs7dx.cloudfront.net/out/v1/371fb663da604e659a2fb99bf89d92d4/index.m3u8
 #EXTINF:-1 tvg-id="MoviesAction.sa@SD" tvg-logo="https://i.imgur.com/NIVhISa.png" group-title="Arabie saoudite",Movies Action (1080p)
 https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
 #EXTINF:-1 tvg-id="MoviesThriller.sa@SD" tvg-logo="https://i.imgur.com/JWihdcl.png" group-title="Arabie saoudite",Movies Thriller (1080p)
@@ -982,18 +942,16 @@ https://rotana.hibridcdn.net/rotananet/khaleejiya_net-7Y83PP5adWixDF93/playlist.
 #EXTINF:-1 tvg-id="RotanaMusic.sa@SD" tvg-logo="https://i.imgur.com/2zFQbQi.png" http-referrer="https://rotana.net/" group-title="Arabie saoudite",Rotana Music (1080p) [Geo-blocked]
 #EXTVLCOPT:http-referrer=https://rotana.net/
 https://rotana.hibridcdn.net/rotananet/music_net-7Y83PP5adWixDF93/playlist.m3u8
-#EXTINF:-1 tvg-id="SaudiThaqafiyaTV.sa@SD" tvg-logo="https://shahid.mbc.net/mediaObject/55f69983-5b4b-47c7-9c25-06ed5ad860a4?height=auto&width=512&croppingPoint=&version=1&type=jpeg" group-title="Arabie saoudite",Saudi Thaqafiya TV (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8
 #EXTINF:-1 tvg-id="SaudiaRadio.sa@SD" tvg-logo="https://aloula.faulio.com/storage/mediagallery/32/f9/fullhd_4c7e170fe0169d36ed17d45a645d4e69fb961793.png" group-title="Arabie saoudite",Saudia Radio (1080p)
 https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8
-#EXTINF:-1 tvg-id="SBC.sa@SD" tvg-logo="https://i.imgur.com/9JSQglj.png" group-title="Arabie saoudite",SBC (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8
 #EXTINF:-1 tvg-id="Tarab.sa@SD" tvg-logo="https://assets.mbcmood.com/channels/1738059679TARAB_Logo.png" group-title="Arabie saoudite",Tarab (1080p)
 https://shd-amg-fast-btpls.shahid.net/tx002/playlist.m3u8
-#EXTINF:-1 tvg-id="ThikrayatTV.sa@SD" tvg-logo="https://i.imgur.com/AKa1X9d.png" group-title="Arabie saoudite",Thikrayat TV (1080p) [Geo-blocked]
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/8cfa8fe0c96275735745b89c683b27e3/index.m3u8
+#EXTINF:-1 tvg-id="AlSaudiya.sa" group-title="Arabie saoudite",Al Saudiya
+https://cdn-globecast.akamaized.net/live/eds/saudi_tv/hls_roku/index.m3u8
+#EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa" group-title="Arabie saoudite",Al Quran Al Kareem TV (Secours vérifié 3)
+http://m.live.net.sa:1935/live/quran/playlist.m3u8
 
-# ===== KOWEÏT (10) =====
+# ===== KOWEÏT (10 entrées) =====
 #EXTINF:-1 tvg-id="Ch4TeenDocumentary.kw@SD" tvg-logo="https://i.imgur.com/pHpFGeg.png" group-title="Koweït",Ch4Teen Documentary (1080p)
 https://ch14.tv/live/ch4teendoc/playlist.m3u8
 #EXTINF:-1 tvg-id="KTV1.kw@SD" tvg-logo="https://i.imgur.com/kG0d8Ay.png" group-title="Koweït",KTV 1 (1080p)
@@ -1015,7 +973,7 @@ https://ffs.gulfsat.com/Marina-TV-HD/index.m3u8
 #EXTINF:-1 tvg-id="RitmuTV.kw@SD" tvg-logo="https://play-lh.googleusercontent.com/aO-2614npPjbJny21ljgGDRqfixPUG39uLfXwG-xX6fd2y5sxjp_SR6ty92d9l08yt10" group-title="Koweït",Ritmu TV
 https://659605a54e9a6.streamlock.net:8443/live/livestream/playlist.m3u8
 
-# ===== BAHREÏN (5) =====
+# ===== BAHREÏN (5 entrées) =====
 #EXTINF:-1 tvg-id="BahrainInternational.bh@SD" tvg-logo="https://i.imgur.com/t6Lmntr.png" group-title="Bahreïn",Bahrain International (720p) [Not 24/7]
 https://5c7b683162943.streamlock.net/live/ngrp:bahraininternational_all/playlist.m3u8
 #EXTINF:-1 tvg-id="BahrainQuran.bh@SD" tvg-logo="https://i.imgur.com/er5hOK4.png" group-title="Bahreïn",Bahrain Quran (720p) [Not 24/7]
@@ -1027,7 +985,7 @@ https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u
 #EXTINF:-1 tvg-id="BahrainTV.bh@SD" tvg-logo="https://i.imgur.com/LTD0jIm.png" group-title="Bahreïn",Bahrain TV (720p) [Not 24/7]
 https://5c7b683162943.streamlock.net/live/ngrp:bahraintvmain_all/playlist.m3u8
 
-# ===== OMAN (5) =====
+# ===== OMAN (5 entrées) =====
 #EXTINF:-1 tvg-id="AlistiqamaTV.om@SD" tvg-logo="https://i.imgur.com/2FPtYZr.png" group-title="Oman",Alistiqama TV (576p)
 https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8
 #EXTINF:-1 tvg-id="OmanTVCultural.om@SD" tvg-logo="https://i.imgur.com/b38wNPK.png" group-title="Oman",Oman Althakafia (1080p)
@@ -1039,7 +997,7 @@ https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="OmanTV.om@SD" tvg-logo="https://i.imgur.com/rBftT9x.png" group-title="Oman",Oman TV (1080p)
 https://partneta.cdn.mgmlcdn.com/omantv/smil:omantv.stream.smil/chunklist.m3u8
 
-# ===== YÉMEN (4) =====
+# ===== YÉMEN (4 entrées) =====
 #EXTINF:-1 tvg-id="AlMasirah.ye@SD" tvg-logo="https://i.imgur.com/V055t5e.png" group-title="Yémen",Al Masirah (720p) [Not 24/7]
 https://live.cdnbridge.tv/Almasirah/Almasirah_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AlMasirahMubacher.ye@SD" tvg-logo="https://i.imgur.com/0xHb3XM.jpg" group-title="Yémen",Al Masirah Mubacher (642p) [Not 24/7]
@@ -1049,7 +1007,7 @@ https://assahat.b-cdn.net/Assahat/assahatobs/index.m3u8
 #EXTINF:-1 tvg-id="YemenTodayTV.ye@SD" tvg-logo="https://i.imgur.com/8TzcJu5.png" group-title="Yémen",Yemen Today TV (480p)
 https://video.yementdy.tv/hls/yementoday.m3u8
 
-# ===== LIBYE (4) =====
+# ===== LIBYE (4 entrées) =====
 #EXTINF:-1 tvg-id="AlMasarTV.ly@SD" tvg-logo="https://play-lh.googleusercontent.com/FHPrsr391mPFqKfTq6ZdvWPZNVfsZeTAVQ8rjQF-NosnRdNipUy5xa43RWkiF4tGcQU" group-title="Libye",Al Masar TV (576p)
 https://starmenajo.com/hls/almasar/index.m3u8
 #EXTINF:-1 tvg-id="LibyaAlWataniya.ly@SD" tvg-logo="https://i.imgur.com/KSUny9D.jpeg" group-title="Libye",Libya Al Wataniya (360p)
@@ -1060,7 +1018,7 @@ https://kilolink.pulsarstarsolutions.com/live/smil:tanasuhtv.smil/manifest.m3u8
 #EXTVLCOPT:http-referrer=https://alwasat.ly/
 https://alwasattv.hibridcdn.net/alwasattv/alwasat_abr/playlist.m3u8
 
-# ===== SOUDAN (3) =====
+# ===== SOUDAN (3 entrées) =====
 #EXTINF:-1 tvg-id="AlAlamiya2.sd@SD" tvg-logo="https://i.imgur.com/5FrE3Nv.png" group-title="Soudan",Al Alamiya 2
 http://82.212.74.98:8000/live/7815.m3u8
 #EXTINF:-1 tvg-id="DabangaTV.sd@SD" tvg-logo="https://i.imgur.com/BH1N6TA.png" group-title="Soudan",Dabanga TV (1080p)
@@ -1068,11 +1026,11 @@ https://hls.dabangasudan.org/hls/stream.m3u8
 #EXTINF:-1 tvg-id="SudanTV.sd@SD" tvg-logo="https://i.imgur.com/XUPAYAA.png" group-title="Soudan",Sudan TV (360p)
 https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8
 
-# ===== MAURITANIE (1) =====
+# ===== MAURITANIE (1 entrées) =====
 #EXTINF:-1 tvg-name="Sahara 24 صحراء" tvg-logo="https://imgur.com/a/7szNpBp" tvg-id="Sahara-24.mr" tvg-chno="9" group-title="Mauritanie",Sahara 24 صحراء
 https://65.108.206.29/sahara24-live/video.m3u8
 
-# ===== BELGIQUE (25) =====
+# ===== BELGIQUE (28 entrées) =====
 #EXTINF:-1 tvg-id="ACTV.be@SD" tvg-logo="https://files.catbox.moe/8v2y8m.png" group-title="Belgique",ACTV (504p)
 https://dlgt0tdl2hpq3.cloudfront.net/rtbf/clr-rtbf/4db788c7/index.m3u8
 #EXTINF:-1 tvg-id="ACTV.be@SD" tvg-logo="https://files.catbox.moe/8v2y8m.png" group-title="Belgique",ACTV (Secours 2)
@@ -1131,7 +1089,7 @@ https://tvlocales-live.freecaster.com/tvcom/95d2f656-ba85-4e13-affc-f1936be1a86d
 #EXTINF:-1 tvg-id="Vedia.be@SD" tvg-logo="https://i.imgur.com/7LnH6yu.png" group-title="Belgique",Vedia (1080p)
 https://tvlocales-live.freecaster.com/vedia/95d2f480-b0b0-4027-9f4a-057183312305/95d2f480-b0b0-4027-9f4a-057183312305.isml/master.m3u8
 
-# ===== SUISSE (12) =====
+# ===== SUISSE (13 entrées) =====
 #EXTINF:-1 tvg-id="Canal9.ch@SD" tvg-logo="https://i.imgur.com/TNciMh2.png" group-title="Suisse",Canal 9 en Français (1080p)
 https://livehd.vedge.infomaniak.com/livecast/livehd/master.m3u8
 #EXTINF:-1 tvg-id="Carac1.ch@SD" tvg-logo="https://i.imgur.com/TSc35U6.png" group-title="Suisse",Carac 1 (1080p)
@@ -1159,7 +1117,7 @@ https://cache1a.netplus.ch/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIx
 #EXTINF:-1 tvg-id="TVM3.ch@SD" tvg-logo="https://i.imgur.com/zNJlFMg.png" group-title="Suisse",TVM 3 (Secours 2)
 http://livevideo.infomaniak.com/streaming/livecast/tvm3/playlist.m3u8
 
-# ===== CANADA (23) =====
+# ===== CANADA (48 entrées) =====
 #EXTINF:-1 tvg-id="Savoirmedia.ca@CFTUDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/Savoir_m%C3%A9dia_logo_3.png" group-title="Canada",Canal Savoir (360p)
 https://hls.savoir.media/live/stream.m3u8
 #EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBFTDT" tvg-logo="https://i.imgur.com/pFCJGj4.png" group-title="Canada",Ici Radio-Canada Télé (1080p) [Geo-blocked]
@@ -1257,7 +1215,7 @@ https://tvalive-dai01.akamaized.net/Content/HLS/Live/channel(575b93c5-be31-ee34-
 #EXTINF:-1 tvg-id="TVA.ca@CFTMDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/TVA_logo_2020.svg/960px-TVA_logo_2020.svg.png" group-title="Canada",TVA (Secours 2)
 https://hls.cdn.ua/tva.ua_live/livestream/chunklist_.m3u8
 
-# ===== LUXEMBOURG (3) =====
+# ===== LUXEMBOURG (3 entrées) =====
 #EXTINF:-1 tvg-id="LuxeTV.lu@SD" tvg-logo="https://i.imgur.com/24ehonx.png" group-title="Luxembourg",Luxe TV (1080p)
 http://103.154.3.101:5001/live/1736.m3u8
 #EXTINF:-1 tvg-id="RTLZwee.lu@SD" tvg-logo="https://i.imgur.com/7SmCtyy.png" group-title="Luxembourg",RTL Zwee (1080p)
@@ -1265,13 +1223,13 @@ https://live-edge.rtl.lu/channel2/smil:channel2/playlist.m3u8
 #EXTINF:-1 tvg-id="RTL9.lu@SD" tvg-logo="https://i.imgur.com/nFqjVNW.png" group-title="Luxembourg",RTL9 (720p)
 http://145.239.5.177/308/index.m3u8
 
-# ===== MONACO (2) =====
+# ===== MONACO (2 entrées) =====
 #EXTINF:-1 tvg-id="MonacoInfo.mc@SD" tvg-logo="https://i.imgur.com/dIrKYH7.png" group-title="Monaco",Monaco Info (1080p)
 https://webtv.monacoinfo.com/live/prod/index.m3u8
 #EXTINF:-1 tvg-id="TVMonaco.mc@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/TVMonaco_2023.svg/960px-TVMonaco_2023.svg.png" group-title="Monaco",TV Monaco (1080p)
 https://production-fast-mcrtv.content.okast.tv/channels/2116dc08-1959-465d-857f-3619daefb66b/b702b2b9-aebd-436c-be69-2118f56f3d86/master.m3u8
 
-# ===== SÉNÉGAL (15) =====
+# ===== SÉNÉGAL (16 entrées) =====
 #EXTINF:-1 tvg-id="A2iMusic.sn@SD" tvg-logo="https://i.imgur.com/Fykhzxh.jpg" group-title="Sénégal",A2i Music (720p) [Not 24/7]
 https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="A2iNaija.sn@SD" tvg-logo="https://i.imgur.com/yq7ghPE.jpg" group-title="Sénégal",A2i Naija (720p) [Not 24/7]
@@ -1305,7 +1263,7 @@ https://live3.acangroup.org:1929/publiclive/sunulabel/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleMusikSenegal.sn@SD" tvg-logo="https://i.imgur.com/dPAPLsd.png" group-title="Sénégal",TeleMusik Senegal (720p)
 https://58c04fb1d143f.streamlock.net/rezopropartner_1_live/rezopropartner_1_live/playlist.m3u8
 
-# ===== CÔTE D’IVOIRE (18) =====
+# ===== CÔTE D’IVOIRE (19 entrées) =====
 #EXTINF:-1 tvg-id="7Info.ci@SD" tvg-logo="https://i.imgur.com/jcl1nNR.png" group-title="Côte d’Ivoire",7 Info
 https://video1.getstreamhosting.com:1936/8042/8042/playlist.m3u8
 #EXTINF:-1 tvg-id="A12TV.ci@SD" tvg-logo="https://i.imgur.com/JgnjgvF.png" group-title="Côte d’Ivoire",A12 TV
@@ -1345,7 +1303,7 @@ https://cdn140m.panaccess.com/HLS/RTVC/index.m3u8
 #EXTINF:-1 tvg-id="SerieMax.ci@SD" tvg-logo="https://i.imgur.com/GaRQXHT.png" group-title="Côte d’Ivoire",Serie Max
 https://video1.getstreamhosting.com:1936/8330/8330/playlist.m3u8
 
-# ===== CAMEROUN (13) =====
+# ===== CAMEROUN (13 entrées) =====
 #EXTINF:-1 tvg-id="AfriqueMedia.cm@SD" tvg-logo="https://i.imgur.com/spQgX7X.png" http-referrer="https://odysee.com" group-title="Cameroun",Afrique Media (720p)
 #EXTVLCOPT:http-referrer=https://odysee.com
 https://cloud.odysee.live/content/fe06b3cdc9412e359368b2455b6ea5e93856e382/master.m3u8
@@ -1374,7 +1332,7 @@ http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8
 #EXTINF:-1 tvg-id="TR24Television.cm@SD" tvg-logo="https://i.ibb.co/fQrBY1M/tr24-telepack.jpg" group-title="Cameroun",TR24 (720p)
 https://stream.it-innov.com/tr24/index.m3u8
 
-# ===== R.D. CONGO (16) =====
+# ===== R.D. CONGO (17 entrées) =====
 #EXTINF:-1 tvg-id="AntenneA.cd@SD" tvg-logo="https://i.imgur.com/tgxrcv7.png" group-title="R.D. Congo",Antenne A
 http://51.254.199.122:8080/antenne_a-plus/index.m3u8
 #EXTINF:-1 tvg-id="BarakaTelevision.cd@SD" tvg-logo="https://i.imgur.com/IKXddHN.png" group-title="R.D. Congo",Baraka Television (720p) [Not 24/7]
@@ -1410,7 +1368,7 @@ http://51.254.199.122:8080/e-cableRTNC3/index.m3u8
 #EXTINF:-1 tvg-id="RTVS1.cd@SD" tvg-logo="https://i.imgur.com/doaZCzy.png" group-title="R.D. Congo",RTVS1
 http://51.254.199.122:8080/RTVS1/index.m3u8
 
-# ===== CONGO (5) =====
+# ===== CONGO (5 entrées) =====
 #EXTINF:-1 tvg-id="BebTV.cg@SD" tvg-logo="https://i.imgur.com/3XOk1lP.jpeg" group-title="Congo",Beb TV (720p)
 https://live-hls-qunv.livepush.io/live_cdn/em8A-kbzIfHqu73/index.m3u8
 #EXTINF:-1 tvg-id="DRTVInternational.cg@SD" tvg-logo="https://i.imgur.com/rGbTvtZ.png" group-title="Congo",DRTV International
@@ -1422,7 +1380,7 @@ https://playtv4k.live/live/EVTELE/index.m3u8
 #EXTINF:-1 tvg-id="TeleCongo.cg@SD" tvg-logo="https://i.imgur.com/r4B5zq4.png" group-title="Congo",Télé Congo (720p)
 http://51.254.199.122:8080/telecongo/index.m3u8
 
-# ===== BÉNIN (9) =====
+# ===== BÉNIN (9 entrées) =====
 #EXTINF:-1 tvg-id="ADOTV.bj@SD" tvg-logo="https://i.imgur.com/pxFamLr.png" group-title="Bénin",ADO TV (720p)
 https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8
 #EXTINF:-1 tvg-id="BeninWebTV.bj@SD" tvg-logo="https://i.imgur.com/CYy4n0N.png" group-title="Bénin",Bénin Web TV (720p)
@@ -1442,7 +1400,7 @@ https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/dbe59037-07a0-4f1
 #EXTINF:-1 tvg-id="TVCBenin.bj@SD" tvg-logo="https://i.imgur.com/oUnEYl5.png" group-title="Bénin",TVC Bénin (720p)
 https://live.tvcbenin.com/direct/729c37a1d3319ee21991227b1f84c687.sdp/playlist.m3u8
 
-# ===== TOGO (10) =====
+# ===== TOGO (11 entrées) =====
 #EXTINF:-1 tvg-id="ACTV.tg@SD" tvg-logo="https://i.imgur.com/SYugK7Y.png" group-title="Togo",AC TV (480p) [Not 24/7]
 https://ssh101stream.ssh101.com/akamaissh101/ssh101/actvstream/playlist.m3u8
 #EXTINF:-1 tvg-id="ACTV.tg@SD" tvg-logo="https://i.imgur.com/SYugK7Y.png" group-title="Togo",AC TV (Secours 2)
@@ -1466,7 +1424,7 @@ https://cdn140m.panaccess.com/HLS/Espoir47/index.m3u8
 #EXTINF:-1 tvg-id="TVT.tg@SD" tvg-logo="https://i.imgur.com/WtXonN9.png" group-title="Togo",TVT (720p) [Not 24/7]
 http://69.64.57.208/tvt/playlist.m3u8
 
-# ===== BURKINA FASO (5) =====
+# ===== BURKINA FASO (5 entrées) =====
 #EXTINF:-1 tvg-id="Canal3.bf@SD" tvg-logo="https://i.imgur.com/WIrVAa2.png" group-title="Burkina Faso",Canal 3
 https://cs2.push2stream.com/CANAL3BENIN/playlist.m3u8
 #EXTINF:-1 tvg-id="FilinfoTV.bf@SD" tvg-logo="https://i.imgur.com/KG93Tvn.png" group-title="Burkina Faso",Filinfo TV (1080p)
@@ -1478,7 +1436,7 @@ https://edge12.vedge.infomaniak.com/livecast/ik:rtblive1_8/manifest.m3u8
 #EXTINF:-1 tvg-id="SavaneTV.bf@SD" tvg-logo="https://i.imgur.com/mv3S1Zc.png" group-title="Burkina Faso",Savane TV
 https://savane24.tv:5443/LiveApp/streams/Y4fyif69Q0ll6MeH2190896734859843.m3u8
 
-# ===== MALI (3) =====
+# ===== MALI (3 entrées) =====
 #EXTINF:-1 tvg-id="D3TV.ml@SD" tvg-logo="https://i.imgur.com/uFEIBtB.png" group-title="Mali",D3 TV (720p)
 https://lbgo.bozztv.com/ssh101/ssh101/d3tvnet/playlist.m3u8
 #EXTINF:-1 tvg-id="ORTM1.ml@SD" tvg-logo="https://i.imgur.com/eKUpcls.png" group-title="Mali",ORTM 1
@@ -1486,7 +1444,7 @@ https://cs2.push2stream.com/ORTM-DVR/playlist.m3u8
 #EXTINF:-1 tvg-id="TM1TV.ml@SD" tvg-logo="https://i.imgur.com/83BgaBa.png" group-title="Mali",TM1 (360p) [Not 24/7]
 http://69.64.57.208/tm1/playlist.m3u8
 
-# ===== NIGER (4) =====
+# ===== NIGER (4 entrées) =====
 #EXTINF:-1 tvg-id="DouniaTV.ne@SD" tvg-logo="https://i.imgur.com/ENBCDaQ.png" group-title="Niger",Dounia TV
 https://live20.bozztv.com/dvrfl06/astv/astv-douniatv/index.m3u8
 #EXTINF:-1 tvg-id="SaraouniaTV.ne@SD" tvg-logo="https://i.imgur.com/O8XIcpH.png" group-title="Niger",Saraounia TV
@@ -1496,7 +1454,7 @@ https://mediaserver1.castpin.com/hls/taltv/index.m3u8
 #EXTINF:-1 tvg-id="TeleSahel.ne@SD" tvg-logo="https://i.imgur.com/vboq428.png" group-title="Niger",Tele Sahel (1080p)
 https://mediaserver1.castpin.com/hls/telesahel/index.m3u8
 
-# ===== GUINÉE (5) =====
+# ===== GUINÉE (6 entrées) =====
 #EXTINF:-1 tvg-id="AfrikInfoTV.gn@SD" tvg-logo="https://i.imgur.com/hz2LOD8.jpeg" group-title="Guinée",Afrik Info TV
 https://kali.vdopanel.com:3119/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="ATV.gn@SD" tvg-logo="https://i.imgur.com/YkJPCfR.jpeg" group-title="Guinée",ATV (400p) [Not 24/7]
@@ -1510,13 +1468,13 @@ https://kali.vdopanel.com:3788/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="KalacTV.gn@SD" tvg-logo="https://i.imgur.com/FgKJiHZ.png" group-title="Guinée",Kalac TV (1080p)
 https://edge13.vedge.infomaniak.com/livecast/ik:kalactv/chunklist_w280736538.m3u8
 
-# ===== RWANDA (2) =====
+# ===== RWANDA (2 entrées) =====
 #EXTINF:-1 tvg-id="KC2.rw@SD" tvg-logo="https://i.imgur.com/PsYPzNc.png" group-title="Rwanda",KC2 (720p) [Not 24/7]
 http://197.243.19.131:1935/kc2/kc2/chunklist.m3u8
 #EXTINF:-1 tvg-id="RwandaTV.rw@SD" tvg-logo="https://i.imgur.com/4nbGvxW.png" group-title="Rwanda",RTV Rwanda (480p) [Not 24/7]
 http://197.243.19.131:1935/rtv25/rtv/chunklist.m3u8
 
-# ===== HAÏTI (12) =====
+# ===== HAÏTI (12 entrées) =====
 #EXTINF:-1 tvg-id="HaitiNewsChannel.ht@SD" tvg-logo="https://m.media-amazon.com/images/I/51bJg+c7vRL.png" group-title="Haïti",Haiti News Channel (1080p) [Not 24/7]
 https://cdn.haititivi.com/website/haitinews/index.m3u8
 #EXTINF:-1 tvg-id="NetalkoleTV.ht@SD" tvg-logo="https://i.imgur.com/SdVrpzY.png" group-title="Haïti",NETALKOLE TV (720p) [Not 24/7]
@@ -1542,17 +1500,17 @@ https://5790d294af2dc.streamlock.net/8124/8124/playlist.m3u8
 #EXTINF:-1 tvg-id="TNH.ht@SD" tvg-logo="https://i.imgur.com/8nvCXzt.png" group-title="Haïti",TNH (720p)
 https://bozztv.com/dvrfl03/hdirect/hdirect-telecaraibes/index.m3u8
 
-# ===== POLYNÉSIE FRANÇAISE (1) =====
+# ===== POLYNÉSIE FRANÇAISE (1 entrées) =====
 #EXTINF:-1 tvg-id="TNTV.pf@SD" tvg-logo="https://i.imgur.com/e5eVHam.png" group-title="Polynésie française",TNTV (1080p)
 https://tntv-samsung-fr.amagi.tv/playlist.m3u8
 
-# ===== AL (1) =====
+# ===== AL (2 entrées) =====
 #EXTINF:-1 tvg-name="CNA" tvg-logo="https://i.imgur.com/X3ukD5t.png" tvg-id="CNA.al" tvg-country="AL" group-title="AL",CNA
 https://live1.mediadesk.al/cnatvlive.m3u8
 #EXTINF:-1 tvg-name="CNA" tvg-logo="https://i.imgur.com/X3ukD5t.png" tvg-id="CNA.al" tvg-country="AL" group-title="AL",CNA (Secours 2)
 https://live.creacast.com/cna/stream/playlist.m3u8
 
-# ===== ALLEMAGNE (59) =====
+# ===== ALLEMAGNE (65 entrées) =====
 #EXTINF:-1 tvg-name="ARTE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/250px-Arte_Logo_2017.svg.png" tvg-id="ARTEDeutsch.de" tvg-chno="5" tvg-country="DE" group-title="Allemagne",ARTE Ⓖ
 https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8
 #EXTINF:-1 tvg-name="ARTE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/250px-Arte_Logo_2017.svg.png" tvg-id="ARTEDeutsch.de" tvg-chno="5" tvg-country="DE" group-title="Allemagne",ARTE (Secours 2)
@@ -1684,15 +1642,15 @@ https://jmp2.uk/plu-66f55c3955567d0008ef9b68.m3u8
 #EXTINF:-1 tvg-id="Turbo.de@FR" tvg-logo="https://images.pluto.tv/channels/66f55c3955567d0008ef9b68/colorLogoPNG.png" group-title="Allemagne",Turbo (Secours 2)
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8
 
-# ===== AU (1) =====
+# ===== AU (1 entrées) =====
 #EXTINF:-1 tvg-id="MissionAsia.au@SD" tvg-logo="https://i.imgur.com/B5mKwF6.png" group-title="AU",Mission Asia (1080p)
 https://livecdn.live247stream.com/missionasia/tv/playlist.m3u8
 
-# ===== AZ (1) =====
+# ===== AZ (1 entrées) =====
 #EXTINF:-1 tvg-id="VilayetTV.az@SD" tvg-logo="https://vilayet.tv/wp-content/uploads/elementor/thumbs/logo-q3w2md1u47q39x7d0004wqzz74xdv1glw356ex6ph0.png" group-title="AZ",Vilayet TV
 https://nl.livekadeh.com/hls2/vilayet.m3u8
 
-# ===== CHINE (4) =====
+# ===== CHINE (12 entrées) =====
 #EXTINF:-1 tvg-id="CGTNFrench.cn" tvg-logo="https://i.imgur.com/BwhledK.png" group-title="Chine",CGTN (Français)
 https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTNFrench.cn" tvg-logo="https://i.imgur.com/BwhledK.png" group-title="Chine",CGTN (Français) (Secours 2)
@@ -1718,19 +1676,19 @@ https://dash3.antik.sk/live/test_cgtn_arb_tizen/playlist.m3u8
 #EXTINF:-1 tvg-name="CGTN العربية" tvg-logo="https://i.imgur.com/fMsJYzl.png" tvg-id="CGTNArabic.cn" tvg-chno="6" group-title="Chine",CGTN العربية (Secours 3)
 https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8
 
-# ===== CY (2) =====
+# ===== CY (2 entrées) =====
 #EXTINF:-1 tvg-id="Sat7Arabic.cy@SD" tvg-logo="https://i.imgur.com/BzDjQeQ.png" group-title="CY",Sat 7 Arabic (240p)
 https://svs.itworkscdn.net/sat7arabiclive/sat7arabic.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="Sat7Kids.cy@SD" tvg-logo="https://i.imgur.com/M0ik0i2.png" group-title="CY",Sat 7 Kids (1080p)
 https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8
 
-# ===== CZ (1) =====
+# ===== CZ (2 entrées) =====
 #EXTINF:-1 tvg-name="UTV" tvg-logo="https://imgur.com/ulfeIwM.png" tvg-id="utv.cz" tvg-chno="38" tvg-country="CZ" group-title="CZ",UTV
 https://vysilani.zaktv.cz/broadcast/hls/utv/index.m3u8
 #EXTINF:-1 tvg-name="UTV" tvg-logo="https://imgur.com/ulfeIwM.png" tvg-id="utv.cz" tvg-chno="38" tvg-country="CZ" group-title="CZ",UTV (Secours 2)
 https://mn-nl.mncdn.com/utviraqi2/64c80359/index.m3u8
 
-# ===== EE (1) =====
+# ===== EE (3 entrées) =====
 #EXTINF:-1 tvg-name="ETV" tvg-logo="https://i.imgur.com/5URjPgG.png" tvg-id="ETV.ee" tvg-chno="1" tvg-country="EE" group-title="EE",ETV Ⓖ
 http://sb.err.ee/live/etv.m3u8
 #EXTINF:-1 tvg-name="ETV" tvg-logo="https://i.imgur.com/5URjPgG.png" tvg-id="ETV.ee" tvg-chno="1" tvg-country="EE" group-title="EE",ETV (Secours 2)
@@ -1738,30 +1696,30 @@ https://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8
 #EXTINF:-1 tvg-name="ETV" tvg-logo="https://i.imgur.com/5URjPgG.png" tvg-id="ETV.ee" tvg-chno="1" tvg-country="EE" group-title="EE",ETV (Secours 3)
 http://sb.err.ee/live/etvpluss.m3u8
 
-# ===== EH (1) =====
+# ===== EH (1 entrées) =====
 #EXTINF:-1 tvg-id="RASDTV.eh@SD" tvg-logo="https://i.imgur.com/9Pb8806.png" group-title="EH",RASD TV (1080i)
 https://cloud.streamingconnect.tv/hls/rasdtv2/rasdtv.m3u8
 
-# ===== ER (1) =====
+# ===== ER (1 entrées) =====
 #EXTINF:-1 tvg-id="ERiTV1.er@SD" tvg-logo="https://i.imgur.com/bTR0Huw.png" group-title="ER",ERi-TV 1 (576p)
 https://jmc-live.ercdn.net/eritreatv/eritreatv.m3u8
 
-# ===== ES (2) =====
+# ===== ES (2 entrées) =====
 #EXTINF:-1 tvg-id="CapTerre.es@FR" tvg-logo="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/capterre_white.png" group-title="ES",Cap Terre (1080p)
 http://145.239.5.177/359a/index.m3u8
 #EXTINF:-1 tvg-id="VoyagesSaveurs.es@FR" tvg-logo="https://images.pluto.tv/channels/680291e38e1ff89c2427aefd/colorLogoPNG_1749650211442.png" group-title="ES",Voyages & Saveurs (720p)
 https://jmp2.uk/plu-680291e38e1ff89c2427aefd.m3u8
 
-# ===== GF (1) =====
+# ===== GF (1 entrées) =====
 #EXTINF:-1 tvg-id="TelePeyi.gf@SD" tvg-logo="https://i.imgur.com/LJ9sXaB.png" group-title="GF",Télé Péyi (720p)
 https://edge20.vedge.infomaniak.com/livecast/ik:33dm06/manifest.m3u8
 
-# ===== GH (1) =====
+# ===== GH (1 entrées) =====
 #EXTINF:-1 tvg-id="GTV.gh@SD" tvg-logo="https://i.imgur.com/5cFLWKO.png" http-referrer="https://liveghanatv.com/" group-title="GH",GTV (540p)
 #EXTVLCOPT:http-referrer=https://liveghanatv.com/
 https://g2qd3exjy7an-hls-live.5centscdn.com/gtvghana/ghanaweb.stream/playlist.m3u8
 
-# ===== GP (5) =====
+# ===== GP (7 entrées) =====
 #EXTINF:-1 tvg-id="ETV.gp@SD" tvg-logo="https://i.imgur.com/m5E2VP0.png" group-title="GP",ETV (1080p)
 https://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8
 #EXTINF:-1 tvg-id="ETV.gp@SD" tvg-logo="https://i.imgur.com/m5E2VP0.png" group-title="GP",ETV (Secours 2)
@@ -1777,13 +1735,13 @@ https://edge12.vedge.infomaniak.com/livecast/ik:livehautetension/manifest.m3u8
 #EXTINF:-1 tvg-id="TMA.gp@SD" tvg-logo="https://i.imgur.com/1iOAl2j.png" group-title="GP",TMA (1080p)
 http://hls.tmacaraibes.com/live/index.m3u8
 
-# ===== HR (1) =====
+# ===== HR (2 entrées) =====
 #EXTINF:-1 tvg-name="OTV" tvg-logo="https://i.imgur.com/67zVdu2.png" tvg-id="OTV.hr" tvg-chno="31" tvg-country="HR" group-title="HR",OTV
 https://stream.agatin.hr:3559/live/otvlive.m3u8
 #EXTINF:-1 tvg-name="OTV" tvg-logo="https://i.imgur.com/67zVdu2.png" tvg-id="OTV.hr" tvg-chno="31" tvg-country="HR" group-title="HR",OTV (Secours 2)
 https://otv.hibridcdn.net/otv/tv_abr/playlist.m3u8
 
-# ===== HU (2) =====
+# ===== HU (4 entrées) =====
 #EXTINF:-1 tvg-name="ATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Atv_logo_2018.png/250px-Atv_logo_2018.png" tvg-id="ATV.hu" tvg-chno="3" tvg-country="HU" group-title="HU",ATV
 http://88.212.15.19/live/test_atv_hungary_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-name="ATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Atv_logo_2018.png/250px-Atv_logo_2018.png" tvg-id="ATV.hu" tvg-chno="3" tvg-country="HU" group-title="HU",ATV (Secours 2)
@@ -1793,7 +1751,7 @@ http://88.212.15.19/live/test_tv_2_hungary_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-name="TV2" tvg-logo="https://nlc.p3k.hu/uploads/2021/09/tv2-logo.jpg" tvg-id="TV2.hu" tvg-chno="2" tvg-country="HU" group-title="HU",TV2 (Secours 2)
 http://185.9.2.18/chid_347/index.m3u8
 
-# ===== IL (4) =====
+# ===== IL (4 entrées) =====
 #EXTINF:-1 tvg-id="HalaTV.il@SD" tvg-logo="https://i.imgur.com/028M4Ew.png" group-title="IL",Hala TV (1080p) [Not 24/7]
 https://stream.panet.com/edge/halaTV/playlist.m3u8
 #EXTINF:-1 tvg-id="i24NEWSArabic.il@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" group-title="IL",i24NEWS Arabic (1080p)
@@ -1803,13 +1761,13 @@ https://i24newsfrench-cdn.encoders.immergo.tv/master.m3u8
 #EXTINF:-1 tvg-id="Makan33.il@SD" tvg-logo="https://i.imgur.com/RVtQTed.png" group-title="IL",Makan 33 (1080p)
 https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8
 
-# ===== INTERNATIONAL (1) =====
+# ===== INTERNATIONAL (2 entrées) =====
 #EXTINF:-1 tvg-logo="https://i.imgur.com/BwhledK.png" group-title="International",CGTN French
 https://dash4.antik.sk/live/test_cgtn_fra_tizen/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/BwhledK.png" group-title="International",CGTN French (Secours 2)
 http://145.239.5.177/214/index.m3u8
 
-# ===== IR (8) =====
+# ===== IR (9 entrées) =====
 #EXTINF:-1 tvg-id="AlAlam.ir@SD" tvg-logo="https://i.imgur.com/Zdi31dy.png" group-title="IR",Al Alam (360p)
 https://live2.alalam.ir/alalam.m3u8
 #EXTINF:-1 tvg-id="AlWilayah.ir@SD" tvg-logo="https://i.imgur.com/OI1HQv5.png" group-title="IR",Al Wilayah (720p)
@@ -1829,7 +1787,7 @@ https://ncdn.telewebion.ir/palestine/live/playlist.m3u8
 #EXTINF:-1 tvg-id="PressTVFrench.ir@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Press_TV_logo.svg/960px-Press_TV_logo.svg.png" group-title="IR",Press TV French (1080p)
 https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8
 
-# ===== IT (5) =====
+# ===== IT (6 entrées) =====
 #EXTINF:-1 tvg-id="A2iTV.it@SD" tvg-logo="https://i.imgur.com/YlDFir7.jpg" group-title="IT",A2i TV (1080p)
 https://stream.sen-gt.com/A2itv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="NauticalChannel.it@SD" tvg-logo="https://i.imgur.com/2ByDyzL.png" group-title="IT",Nautical Channel (720p)
@@ -1843,7 +1801,7 @@ https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out
 #EXTINF:-1 tvg-name="Turbo" tvg-logo="https://i.imgur.com/TjjVjV0.png" tvg-id="Motor.Trend.it" tvg-chno="59" tvg-country="IT" group-title="IT",Turbo (Secours 2)
 https://jmp2.uk/plu-66f55c3955567d0008ef9b68.m3u8
 
-# ===== MN (1) =====
+# ===== MN (3 entrées) =====
 #EXTINF:-1 tvg-name="ETV" tvg-logo="" tvg-id="ETV.mn" tvg-chno="20" tvg-country="MN" group-title="MN",ETV
 https://cdn4.skygo.mn/live/disk1/ETV/HLSv3-FTA/ETV.m3u8
 #EXTINF:-1 tvg-name="ETV" tvg-logo="" tvg-id="ETV.mn" tvg-chno="20" tvg-country="MN" group-title="MN",ETV (Secours 2)
@@ -1851,7 +1809,7 @@ https://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8
 #EXTINF:-1 tvg-name="ETV" tvg-logo="" tvg-id="ETV.mn" tvg-chno="20" tvg-country="MN" group-title="MN",ETV (Secours 3)
 http://sb.err.ee/live/etv.m3u8
 
-# ===== MQ (6) =====
+# ===== MQ (6 entrées) =====
 #EXTINF:-1 tvg-id="FUSIONTV.mq@SD" tvg-logo="https://i.imgur.com/WMrYEgH.png" group-title="MQ",FUSION TV (1080p)
 https://edge20.vedge.infomaniak.com/livecast/ik:fusiontv/manifest.m3u8
 #EXTINF:-1 tvg-id="IdentiteTeleCaraibes.mq@SD" tvg-logo="https://i.imgur.com/Atsf6Cd.png" group-title="MQ",Identité Télé Caraïbes (548p)
@@ -1865,27 +1823,27 @@ https://streamer01.myvideoplace.tv/streamer02/hls/ATV_DIRECT_EV_111018.m3u8
 #EXTINF:-1 tvg-id="ZitataTV.mq@SD" tvg-logo="https://i.imgur.com/KJmefse.png" group-title="MQ",Zitata TV
 https://live.zitata.tv/direct-hls/playlist.m3u8
 
-# ===== NG (1) =====
+# ===== NG (1 entrées) =====
 #EXTINF:-1 tvg-id="LoveWorldArabic.ng@SD" tvg-logo="https://i.imgur.com/KYMjRjK.png" group-title="NG",LoveWorld Arabic (360p)
 https://go5lm6a6dawb-hls-live.5centscdn.com/lwarabic/53132d996b4263ec0d7b602292c46eaf.sdp/playlist.m3u8
 
-# ===== PK (2) =====
+# ===== PK (2 entrées) =====
 #EXTINF:-1 tvg-id="GodStandsKidsClubTV.pk@Arabic" tvg-logo="https://i.imgur.com/FxDBbpz.jpeg" group-title="PK",God Stands Kids Club TV Arabic
 https://online.godstands.tv:5443/WebRTCApp/streams/KidsArabic.m3u8
 #EXTINF:-1 tvg-id="GodStandsTV.pk@Arabic" tvg-logo="https://i.imgur.com/EO6cYUI.png" group-title="PK",God Stands TV Arabic
 https://online.godstands.tv:5443/WebRTCApp/streams/Arabic.m3u8
 
-# ===== PT (1) =====
+# ===== PT (1 entrées) =====
 #EXTINF:-1 tvg-id="ManaEgliseOnline.pt@SD" tvg-logo="https://i.imgur.com/xQYly8O.png" group-title="PT",Maná Église Online (1080p) [Not 24/7]
 https://w2.manasat.com/eglise-online/smil:eglise-online.smil/playlist.m3u8
 
-# ===== RS (1) =====
+# ===== RS (2 entrées) =====
 #EXTINF:-1 tvg-name="RTS 3" tvg-logo="https://i.imgur.com/gxuGB4J.png" tvg-id="RTS3.rs" tvg-chno="3" tvg-country="RS" group-title="RS",RTS 3
 https://webtvstream.bhtelecom.ba/rts_sat.m3u8
 #EXTINF:-1 tvg-name="RTS 3" tvg-logo="https://i.imgur.com/gxuGB4J.png" tvg-id="RTS3.rs" tvg-chno="3" tvg-country="RS" group-title="RS",RTS 3 (Secours 2)
 http://145.239.5.177/224/index.m3u8
 
-# ===== RUSSIE (3) =====
+# ===== RUSSIE (5 entrées) =====
 #EXTINF:-1 tvg-id="FashionTV.ru@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" group-title="Russie",FashionTV (1080p)
 http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
 #EXTINF:-1 tvg-id="FashionTV.ru@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" group-title="Russie",FashionTV (Secours 2)
@@ -1897,27 +1855,27 @@ http://89.33.29.118/MCM/index.m3u8
 #EXTINF:-1 tvg-id="RTArabic.ru@SD" tvg-logo="https://i.imgur.com/G8vGrn1.png" group-title="Russie",RT Arabic (1080p) [Geo-blocked]
 https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8
 
-# ===== SE (1) =====
+# ===== SE (2 entrées) =====
 #EXTINF:-1 tvg-id="MiracleChannel.se@SD" tvg-logo="https://i.imgur.com/yrt7Rw9.png" group-title="SE",Miracle TV (1080p)
 https://live.miracleonline.org/hls/miracle1.m3u8
 #EXTINF:-1 tvg-id="MiracleChannel.se@SD" tvg-logo="https://i.imgur.com/yrt7Rw9.png" group-title="SE",Miracle TV (Secours 2)
 https://strhlslb01.streamakaci.tv/str_mtv_mtv/str_mtv_multi/playlist.m3u8
 
-# ===== SX (2) =====
+# ===== SX (2 entrées) =====
 #EXTINF:-1 tvg-id="TVCARiB.sx@SD" tvg-logo="https://i.imgur.com/fvGlwKo.png" group-title="SX",TVCARiB (720p) [Not 24/7]
 https://cdn.mycloudstream.io/hls/live/broadcast/s6nitpvn/index.m3u8
 #EXTINF:-1 tvg-id="TVCARiBGospel.sx@SD" tvg-logo="https://i.imgur.com/fvGlwKo.png" group-title="SX",TVCARiB Gospel (480p) [Not 24/7]
 https://cdn.mycloudstream.io/hls/live/broadcast/wokrhjkd/index.m3u8
 
-# ===== TD (1) =====
+# ===== TD (1 entrées) =====
 #EXTINF:-1 tvg-id="TeleTchad.td@SD" tvg-logo="https://i.imgur.com/udSzfHD.png" group-title="TD",Tele Tchad (1080p)
 https://strhlslb01.streamakaci.tv/str_tchad_tchad/str_tchad_multi/playlist.m3u8
 
-# ===== TM (1) =====
+# ===== TM (1 entrées) =====
 #EXTINF:-1 tvg-id="Turkmenistan.tm@SD" tvg-logo="https://i.imgur.com/iBBpBx4.png" group-title="TM",Türkmenistan (406p) [Not 24/7]
 https://alpha.tv.online.tm/hls/ch007.m3u8
 
-# ===== TURQUIE (8) =====
+# ===== TURQUIE (9 entrées) =====
 #EXTINF:-1 tvg-id="AfroturkTV.tr@SD" tvg-logo="https://i.imgur.com/fWlLvRA.png" group-title="Turquie",Afroturk TV (1080p)
 https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="AlRafidainTV.tr@SD" tvg-logo="https://i.imgur.com/rjXDCN5.png" group-title="Turquie",Al Rafidain (720p) [Not 24/7]
@@ -1937,13 +1895,13 @@ https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec
 #EXTINF:-1 tvg-id="TRTArabi.tr@SD" tvg-logo="https://i.imgur.com/dEfI2M9.png" group-title="Turquie",TRT Arabi (1080p) [Not 24/7]
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 
-# ===== UA (1) =====
+# ===== UA (2 entrées) =====
 #EXTINF:-1 tvg-name="TVA" tvg-logo="https://i.imgur.com/PtTQ5lv.png" tvg-id="TVA.ua" tvg-chno="13" tvg-country="UA" group-title="UA",TVA
 https://hls.cdn.ua/tva.ua_live/livestream/chunklist_.m3u8
 #EXTINF:-1 tvg-name="TVA" tvg-logo="https://i.imgur.com/PtTQ5lv.png" tvg-id="TVA.ua" tvg-chno="13" tvg-country="UA" group-title="UA",TVA (Secours 2)
 https://tvalive-dai01.akamaized.net/Content/HLS/Live/channel(575b93c5-be31-ee34-6285-14620fd14048)/index.m3u8
 
-# ===== UK (18) =====
+# ===== UK (19 entrées) =====
 #EXTINF:-1 tvg-id="AfghanistanInternational.uk@SD" tvg-logo="https://i.imgur.com/r8MmFRX.png" group-title="UK",Afghanistan International (720p)
 https://hls.afintl.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlHiwarTV.uk@SD" tvg-logo="https://i.imgur.com/UjOxwdd.png" group-title="UK",Alhiwar TV (1080p) [Not 24/7]
@@ -1983,7 +1941,7 @@ https://cd198.anystream.uk:9092/iqapp/t5kb86tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeOne.uk@French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" group-title="UK",Zee One Français (720p)
 https://7689426c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1mcl9aZWVNYWdpY19ITFM/playlist.m3u8
 
-# ===== ÉTATS-UNIS (57) =====
+# ===== ÉTATS-UNIS (59 entrées) =====
 #EXTINF:-1 tvg-id="3ABNFrench.us@SD" tvg-logo="https://i.imgur.com/B5gsM7m.png" group-title="États-Unis",3ABN French
 https://3abn.bozztv.com/3abn2/Fre_live/smil:Fre_live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlHayatTV.us@SD" tvg-logo="https://i.imgur.com/M8ZuzeB.png" group-title="États-Unis",Al Hayat TV (720p)
@@ -2066,14 +2024,6 @@ https://brightstar-arabic-pull-secure.akamaized.net/brightstararabic/stream.m3u8
 https://5a8308add0b31.streamlock.net/logoschannel.com/logostv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LouisLaBrocante.us@France" tvg-logo="https://i.imgur.com/I1w7rFb.png" group-title="États-Unis",Louis La Brocante
 https://jmp2.uk/plu-5f8ed6d569d2d4000864a976.m3u8
-#EXTINF:-1 tvg-id="MBC1USA.us@SD" tvg-logo="https://i.imgur.com/CiA3plN.png" group-title="États-Unis",MBC 1 USA (1080p) [Geo-blocked]
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-usa/fdac3a4fc0473f1f56e07ec1d63a4b7b/index.m3u8
-#EXTINF:-1 tvg-id="MBC3USA.us@SD" tvg-logo="https://i.imgur.com/PVt8OPN.png" group-title="États-Unis",MBC 3 USA (1080p) [Geo-blocked]
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8
-#EXTINF:-1 tvg-id="MBCDramaUSA.us@SD" tvg-logo="https://i.imgur.com/g5PWnqp.png" group-title="États-Unis",MBC Drama USA (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama-usa/ea2f5db904aff224b7066e59c7f585a2/index.m3u8
-#EXTINF:-1 tvg-id="MBCMasrUSA.us@SD" tvg-logo="https://i.imgur.com/o2elx0u.png" group-title="États-Unis",MBC Masr USA (1080p)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-usa/cd8d40acdab28aac0582faa3bd3983f1/index.m3u8
 #EXTINF:-1 tvg-id="MuslimNetworkTV.us@SD" tvg-logo="" group-title="États-Unis",Muslim Network TV
 https://afghantv.app/hls2/muslimnetwork/index.m3u8
 #EXTINF:-1 tvg-id="NewsoftheWorld.us@Arabic" tvg-logo="https://i.imgur.com/MfyRQCs.png" group-title="États-Unis",NOW News Arabic (720p)
