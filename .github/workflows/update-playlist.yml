@@ -5,6 +5,7 @@ on:
     paths:
       - 'tools/generate_playlist.py'
       - 'tools/filter_language_variants.py'
+      - 'tools/add_backups.py'
       - '.github/workflows/update-playlist.yml'
   workflow_dispatch:
 
@@ -21,6 +22,8 @@ jobs:
         run: python3 tools/generate_playlist.py
       - name: Remove non-French non-Arabic variants
         run: python3 tools/filter_language_variants.py
+      - name: Add alternate backup streams
+        run: python3 tools/add_backups.py
       - name: Commit generated playlist
         run: |
           if git diff --quiet -- france-maghreb.m3u; then
@@ -30,5 +33,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add france-maghreb.m3u
-          git commit -m "Update merged France Arabic playlist"
+          git commit -m "Update merged France Arabic playlist with backup streams"
           git push
