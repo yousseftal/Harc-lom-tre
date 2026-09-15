@@ -40,6 +40,22 @@ YOUTUBE = [
         "group": "France",
         "url": "https://www.youtube.com/c/FRANCE24Arabic/live",
     },
+    {
+        "ids": ["RTS1.sn", "RTSSenegal.sn"],
+        "names": ["RTS 1", "RTS1", "RTS Sénégal", "RTS Senegal"],
+        "fallback_id": "RTS1.sn",
+        "name": "RTS 1",
+        "group": "Sénégal",
+        "url": "https://www.youtube.com/@RTSSenegal/live",
+    },
+    {
+        "ids": ["RTG1.gn", "RTG.gn"],
+        "names": ["RTG 1", "RTG", "RTG Guinée", "RTG Guinee"],
+        "fallback_id": "RTG1.gn",
+        "name": "RTG 1",
+        "group": "Guinée",
+        "url": "https://www.youtube.com/RTGGuine/live",
+    },
 ]
 
 
