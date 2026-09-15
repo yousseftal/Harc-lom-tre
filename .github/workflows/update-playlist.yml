@@ -11,6 +11,9 @@ on:
       - 'tools/add_tunisia_extras.py'
       - 'tools/add_deep_research_extras.py'
       - 'tools/add_deep_research_round2.py'
+      - 'tools/add_deep_research_round3.py'
+      - 'tools/harvest_global_public_indexes.py'
+      - 'tools/add_official_youtube_backups.py'
       - '.github/workflows/update-playlist.yml'
   workflow_dispatch:
 
@@ -43,6 +46,12 @@ jobs:
         run: python3 tools/add_deep_research_extras.py
       - name: Second-wave Tunisia Kuwait Oman research
         run: python3 tools/add_deep_research_round2.py
+      - name: Third-wave verified worldwide research
+        run: python3 tools/add_deep_research_round3.py
+      - name: Harvest matching streams from worldwide public indexes
+        run: python3 tools/harvest_global_public_indexes.py
+      - name: Add stable official YouTube live fallbacks
+        run: python3 tools/add_official_youtube_backups.py
       - name: Final legal filter
         run: python3 tools/legal_filter.py
       - name: Commit generated playlist
