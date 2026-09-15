@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
+import ipaddress
 import re
 from urllib.parse import urlparse
 
 PATH = "france-maghreb.m3u"
 
 # URLs/hosts that should not be redistributed in this public playlist.
-# Includes private credentialled IPTV hosts, known unauthorised relay IPs and
+# Includes private credentialled IPTV hosts, known unauthorised relays and
 # CDN families explicitly identified as unsuitable for redistribution here.
 BLOCKED = (
     "ip.xtremetv.eu",
@@ -14,9 +15,6 @@ BLOCKED = (
     "vip-max.com",
     "janjua.pw",
     "freechannelsonly.xyz",
-    "89.187.185.76:8080",
-    "5.180.164.197:8080",
-    "151.80.18.177:86",
     "mbc1-enc.edgenextcdn.net",
     "shls-live-enc.edgenextcdn.net",
     "wanasah-prod-dub-enc.edgenextcdn.net",
@@ -65,7 +63,14 @@ for block in entries:
     blocked = any(b.casefold() in low for b in BLOCKED)
     try:
         parsed = urlparse(url)
-        blocked = blocked or bool(parsed.username or parsed.password)
+        host = parsed.hostname or ""
+        blocked = blocked or bool(parsed.username or parsed.password) or not host
+        if host:
+            try:
+                ipaddress.ip_address(host)
+                blocked = True
+            except ValueError:
+                pass
     except Exception:
         blocked = True
     blocked = blocked or bool(PREMIUM_RE.search(name))
@@ -106,5 +111,5 @@ with open(PATH, "w", encoding="utf-8", newline="\n") as f:
     f.write("\n".join(out).rstrip() + "\n")
 
 print(f"Legal filter: removed {len(removed)} entries")
-for name, url in removed[:50]:
+for name, url in removed[:80]:
     print("REMOVED", name, url)
