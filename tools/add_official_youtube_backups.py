@@ -56,6 +56,30 @@ YOUTUBE = [
         "group": "Guinée",
         "url": "https://www.youtube.com/RTGGuine/live",
     },
+    {
+        "ids": ["AttessiaTV.tn"],
+        "names": ["Attessia TV", "Attessia"],
+        "fallback_id": "AttessiaTV.tn",
+        "name": "Attessia TV",
+        "group": "Tunisie",
+        "url": "https://www.youtube.com/@AttessiaTVOfficial/live",
+    },
+    {
+        "ids": ["LibyaAlAhrar.ly"],
+        "names": ["Libya Al Ahrar", "Libya Al-Ahrar", "ليبيا الأحرار"],
+        "fallback_id": "LibyaAlAhrar.ly",
+        "name": "Libya Al Ahrar",
+        "group": "Libye",
+        "url": "https://www.youtube.com/c/LibyaAlAhrartv/live",
+    },
+    {
+        "ids": ["WasatTV.ly"],
+        "names": ["Wasat TV", "Al Wasat TV", "قناة الوسط"],
+        "fallback_id": "WasatTV.ly",
+        "name": "Wasat TV",
+        "group": "Libye",
+        "url": "https://www.youtube.com/c/WasatTV/live",
+    },
 ]
 
 
