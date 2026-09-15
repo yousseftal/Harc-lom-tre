@@ -67,4 +67,4 @@ jobs:
           fi
       - name: Purge jsDelivr cache
         run: |
-          curl -fsSL "https://purge.jsdelivr.net/gh/yousseftal/Harc-lom-tre@main/france-maghreb.m3u" || true
+          curl --retry 5 --retry-all-errors --retry-delay 2 -fsSL "https://purge.jsdelivr.net/gh/yousseftal/Harc-lom-tre@main/france-maghreb.m3u" || true
