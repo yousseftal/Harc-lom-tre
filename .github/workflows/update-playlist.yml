@@ -14,6 +14,7 @@ on:
       - 'tools/add_deep_research_round3.py'
       - 'tools/harvest_global_public_indexes.py'
       - 'tools/add_official_youtube_backups.py'
+      - 'tools/fix_country_overrides.py'
       - '.github/workflows/update-playlist.yml'
   schedule:
     - cron: '0 6 * * *'
@@ -54,6 +55,8 @@ jobs:
         run: python3 tools/harvest_global_public_indexes.py
       - name: Add stable official YouTube live fallbacks
         run: python3 tools/add_official_youtube_backups.py
+      - name: Correct known country metadata
+        run: python3 tools/fix_country_overrides.py
       - name: Final legal filter
         run: python3 tools/legal_filter.py
       - name: Commit generated playlist
