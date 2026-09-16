@@ -19,6 +19,10 @@ YOUTUBE = [
     {"ids":["WasatTV.ly","WasatTV.ly@SD"],"names":["Wasat TV","Al Wasat TV","قناة الوسط"],"fallback_id":"WasatTV.ly","name":"Wasat TV","group":"Libye","url":"https://www.youtube.com/c/WasatTV/live"},
     {"ids":["AlMouritaniya.mr","ElMouritaniya.mr","TVM.mr"],"names":["Al Mouritaniya","El Mouritaniya","Télévision de Mauritanie","Television de Mauritanie","TVM Mauritanie"],"fallback_id":"AlMouritaniya.mr","name":"Télévision de Mauritanie","group":"Mauritanie","url":"https://www.youtube.com/user/mauritaniantv/live"},
     {"ids":["YemenTV.ye","YemenTV.ye@SD"],"names":["Yemen TV","قناة اليمن الفضائية","YEMEN-TV"],"fallback_id":"YemenTV.ye","name":"Yemen TV","group":"Yémen","url":"https://www.youtube.com/@yementvyem/live"},
+    {"ids":["YemenTodayTV.ye","YemenTodayTV.ye@SD"],"names":["Yemen Today TV","Yemen Today","قناة اليمن اليوم"],"fallback_id":"YemenTodayTV.ye","name":"Yemen Today TV","group":"Yémen","url":"https://www.youtube.com/@yementodaytube/live"},
+    {"ids":["AlSaeedahTV.ye","AlSaeedah.ye"],"names":["Al Saeedah TV","AlSaeedah","السعيدة"],"fallback_id":"AlSaeedahTV.ye","name":"Al Saeedah TV","group":"Yémen","url":"https://www.youtube.com/alsaeedahchannel/live"},
+    {"ids":["SyriaTV.sy","SyriaTV.tr"],"names":["Syria TV","تلفزيون سوريا"],"fallback_id":"SyriaTV.sy","name":"Syria TV","group":"Syrie","url":"https://www.youtube.com/@syriatelevision/live"},
+    {"ids":["AlThaniaTV.sy"],"names":["Al Thania TV","Al Thania","الثانية"],"fallback_id":"AlThaniaTV.sy","name":"Al Thania TV","group":"Syrie","url":"https://www.youtube.com/@althaniatv/live"},
 ]
 
 def norm(s):
@@ -53,7 +57,6 @@ def main():
                 attrs=dict(ATTR_RE.findall(b[0])); tid=attrs.get("tvg-id","").casefold()
                 if tid in id_aliases or norm(entry_name(b[0])) in name_aliases: match=(g,b); break
             if match: break
-        # Country assignment is authoritative here even when an upstream list mislabels the channel.
         target_group=y["group"]
         if match:
             _,b=match; attrs=dict(ATTR_RE.findall(b[0])); tid=attrs.get("tvg-id",y["fallback_id"]); logo=attrs.get("tvg-logo","")
