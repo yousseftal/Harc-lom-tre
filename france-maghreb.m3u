@@ -2,11 +2,11 @@
 # Filtre légal: 0 flux privés/premium/à risque exclus
 # Secours YouTube officiels: 15 liens /live ajoutés (aucune URL googlevideo temporaire)
 # Récolte mondiale d'index publics: 38 candidats testés, 27 actifs, 27 secours ajoutés
-# Recherche approfondie 3: 8 liens testés, 3 actifs, 1 ajoutés (1 nouvelles chaînes, 0 secours)
+# Recherche approfondie 3: 8 liens testés, 2 actifs, 1 ajoutés (1 nouvelles chaînes, 0 secours)
 # Recherche approfondie 2: 19 liens testés, 19 actifs, 7 ajoutés (2 nouvelles chaînes, 5 secours)
-# Recherche approfondie: 69 liens publics testés, 27 actifs, 11 ajoutés (7 nouvelles chaînes, 4 secours)
+# Recherche approfondie: 69 liens publics testés, 26 actifs, 10 ajoutés (6 nouvelles chaînes, 4 secours)
 # M3U.CL vérifié: 0 candidats arabes/francophones testés, 0 actifs, 0 ajoutés (0 nouvelles chaînes, 0 secours)
-# Vérification fichier utilisateur: 88 liens testés, 42 actifs; doublons renommés en secours: 1
+# Vérification fichier utilisateur: 88 liens testés, 41 actifs; doublons renommés en secours: 1
 # Import fichier utilisateur: 26 nouveaux liens testés, 3 actifs, 3 ajoutés (3 nouvelles chaînes, 0 secours)
 # Ajouts Tunisie vérifiés: 0 flux ajoutés, 0 nouvelles chaînes, 25 candidats testés
 # Ajouts vérifiés Internet: 4 flux actifs sur 4 chaînes
@@ -1093,13 +1093,9 @@ http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8
 #EXTINF:-1 tvg-id="TR24Television.cm@SD" tvg-logo="https://i.ibb.co/fQrBY1M/tr24-telepack.jpg" group-title="Cameroun",TR24 (720p)
 https://stream.it-innov.com/tr24/index.m3u8
 
-# ===== BÉNIN (10 entrées) =====
+# ===== BÉNIN (9 entrées) =====
 #EXTINF:-1 tvg-id="ADOTV.bj@SD" tvg-logo="https://i.imgur.com/pxFamLr.png" group-title="Bénin",ADO TV (720p)
 https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8
-#EXTINF:-1 tvg-id="ORTBTV.bj" tvg-logo="" group-title="Bénin",Bénin TV
-#EXTVLCOPT:http-referrer=https://srtb.bj/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://strhls.streamakaci.tv/ortb/ortb1-multi/playlist.m3u8
 #EXTINF:-1 tvg-id="BeninWebTV.bj@SD" tvg-logo="https://i.imgur.com/CYy4n0N.png" group-title="Bénin",Bénin Web TV (720p)
 https://stream.beninwebtv.bj/2/live/stream.m3u8
 #EXTINF:-1 tvg-id="EdenTV.bj@SD" tvg-logo="https://i.imgur.com/4ClnG0x.png" group-title="Bénin",Eden TV (540p) [Not 24/7]
