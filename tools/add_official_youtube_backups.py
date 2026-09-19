@@ -23,6 +23,7 @@ YOUTUBE = [
     {"ids":["AlSaeedahTV.ye","AlSaeedah.ye"],"names":["Al Saeedah TV","AlSaeedah","السعيدة"],"fallback_id":"AlSaeedahTV.ye","name":"Al Saeedah TV","group":"Yémen","url":"https://www.youtube.com/alsaeedahchannel/live"},
     {"ids":["SyriaTV.sy","SyriaTV.tr"],"names":["Syria TV","تلفزيون سوريا"],"fallback_id":"SyriaTV.sy","name":"Syria TV","group":"Syrie","url":"https://www.youtube.com/@syriatelevision/live"},
     {"ids":["AlThaniaTV.sy"],"names":["Al Thania TV","Al Thania","الثانية"],"fallback_id":"AlThaniaTV.sy","name":"Al Thania TV","group":"Syrie","url":"https://www.youtube.com/@althaniatv/live"},
+    {"ids":["AlforatTV.iq","AlforatHD.iq"],"names":["Alforat TV","Alforat HD","Al Forat TV","قناة الفرات"],"fallback_id":"AlforatTV.iq","name":"Alforat TV","group":"Irak","url":"https://www.youtube.com/@alforat_tv/live"},
 ]
 
 def norm(s):
