@@ -1,12 +1,12 @@
 #EXTM3U
 # Filtre légal: 0 flux privés/premium/à risque exclus
 # Secours YouTube officiels: 16 liens /live ajoutés (aucune URL googlevideo temporaire)
-# Récolte mondiale d'index publics: 38 candidats testés, 27 actifs, 27 secours ajoutés
-# Recherche approfondie 3: 8 liens testés, 2 actifs, 0 ajoutés (0 nouvelles chaînes, 0 secours)
+# Récolte mondiale d'index publics: 39 candidats testés, 27 actifs, 27 secours ajoutés
+# Recherche approfondie 3: 8 liens testés, 1 actifs, 0 ajoutés (0 nouvelles chaînes, 0 secours)
 # Recherche approfondie 2: 19 liens testés, 19 actifs, 7 ajoutés (2 nouvelles chaînes, 5 secours)
-# Recherche approfondie: 69 liens publics testés, 27 actifs, 11 ajoutés (6 nouvelles chaînes, 5 secours)
+# Recherche approfondie: 69 liens publics testés, 25 actifs, 10 ajoutés (6 nouvelles chaînes, 4 secours)
 # M3U.CL vérifié: 0 candidats arabes/francophones testés, 0 actifs, 0 ajoutés (0 nouvelles chaînes, 0 secours)
-# Vérification fichier utilisateur: 88 liens testés, 42 actifs; doublons renommés en secours: 1
+# Vérification fichier utilisateur: 88 liens testés, 39 actifs; doublons renommés en secours: 1
 # Import fichier utilisateur: 28 nouveaux liens testés, 3 actifs, 3 ajoutés (3 nouvelles chaînes, 0 secours)
 # Ajouts Tunisie vérifiés: 0 flux ajoutés, 0 nouvelles chaînes, 25 candidats testés
 # Ajouts vérifiés Internet: 4 flux actifs sur 4 chaînes
@@ -612,7 +612,7 @@ https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ZagrosTV.iq@SD" tvg-logo="https://i.imgur.com/9Mspf32.png" group-title="Irak",Zagros TV (Iraq) (1080p)
 https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8
 
-# ===== SYRIE (13 entrées) =====
+# ===== SYRIE (12 entrées) =====
 #EXTINF:-1 tvg-id="AlalamNewsChannelSyria.sy@SD" tvg-logo="https://i.imgur.com/WQKYPKD.png" group-title="Syrie",Alalam News Channel Syria (1080p)
 http://live2.alalam.ir/live/Alalam/index.m3u8
 #EXTINF:-1 tvg-id="Althania.sy@SD" tvg-logo="https://www.althania.tv/themes/custom/althania/assets/images/stv-logo.svg" group-title="Syrie",Althania (1080p)
@@ -634,8 +634,6 @@ https://www.youtube.com/@syriatelevision/live
 #EXTINF:-1 tvg-id="SyriaTV.sy@SD" tvg-logo="https://i.imgur.com/FjuVuXF.jpeg" group-title="Syrie",Syria TV (1080p)
 https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="SyriaTV.sy@SD" tvg-logo="https://i.imgur.com/FjuVuXF.jpeg" group-title="Syrie",Syria TV (1080p) (Secours 2)
-https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="SyriaTV.sy@SD" tvg-logo="https://i.imgur.com/FjuVuXF.jpeg" group-title="Syrie",Syria TV (1080p) (Secours 3)
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6017
 #EXTINF:-1 tvg-id="WelatTV.sy@HD" tvg-logo="https://avatars.githubusercontent.com/u/213803648?s=400&u=e27c09d39f813b9698de9c6559cbf7f196bf6fce&v=4" group-title="Syrie",Welat TV (1080i)
 https://stream.badinan.xyz/welat/tv/playlist.m3u8
