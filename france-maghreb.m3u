@@ -1,12 +1,12 @@
 #EXTM3U
 # Filtre légal: 0 flux privés/premium/à risque exclus
-# Secours YouTube officiels: 19 liens /live ajoutés (aucune URL googlevideo temporaire)
-# Récolte mondiale d'index publics: 31 candidats testés, 21 actifs, 21 secours ajoutés
+# Secours YouTube officiels: 20 liens /live ajoutés (aucune URL googlevideo temporaire)
+# Récolte mondiale d'index publics: 37 candidats testés, 25 actifs, 25 secours ajoutés
 # Recherche approfondie 3: 8 liens testés, 2 actifs, 0 ajoutés (0 nouvelles chaînes, 0 secours)
 # Recherche approfondie 2: 19 liens testés, 19 actifs, 7 ajoutés (2 nouvelles chaînes, 5 secours)
-# Recherche approfondie: 69 liens publics testés, 26 actifs, 10 ajoutés (6 nouvelles chaînes, 4 secours)
+# Recherche approfondie: 69 liens publics testés, 28 actifs, 11 ajoutés (6 nouvelles chaînes, 5 secours)
 # M3U.CL vérifié: 0 candidats arabes/francophones testés, 0 actifs, 0 ajoutés (0 nouvelles chaînes, 0 secours)
-# Vérification fichier utilisateur: 88 liens testés, 40 actifs; doublons renommés en secours: 1
+# Vérification fichier utilisateur: 88 liens testés, 39 actifs; doublons renommés en secours: 1
 # Import fichier utilisateur: 31 nouveaux liens testés, 3 actifs, 3 ajoutés (3 nouvelles chaînes, 0 secours)
 # Ajouts Tunisie vérifiés: 0 flux ajoutés, 0 nouvelles chaînes, 25 candidats testés
 # Ajouts vérifiés Internet: 3 flux actifs sur 3 chaînes
@@ -16,7 +16,7 @@
 # Classées par pays. Doublons, pages Web et chaînes payantes évidentes exclus.
 # Sources: IPTV-org, Free-TV, FreeCastHub, Chaipa
 
-# ===== FRANCE (135 entrées) =====
+# ===== FRANCE (138 entrées) =====
 #EXTINF:-1 tvg-id="20MinutesTV.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20_Minutes_TV_IDF_logo_%282023%29.png/960px-20_Minutes_TV_IDF_logo_%282023%29.png" group-title="France",20 Minutes TV (1080p)
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
 #EXTINF:-1 tvg-id="ADNTVPlus.fr@SD" tvg-logo="https://i.imgur.com/HQZQyWt.png" group-title="France",ADN TV+ (720p)
@@ -165,6 +165,8 @@ https://live.creacast.com/mirabelletv/smil:mirabelletv.smil/playlist.m3u8
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01492-secomsasmediart-museumtv-eng-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="MyZenTV.fr@SD" tvg-logo="https://i.imgur.com/fIi8o0C.png" group-title="France",MyZen TV (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
+#EXTINF:-1 tvg-id="MyZenTV.fr@SD" tvg-logo="https://i.imgur.com/fIi8o0C.png" group-title="France",MyZen TV (1080p) (Secours 2)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-samsungen-samsungit/playlist.m3u8
 #EXTINF:-1 tvg-id="P2MTV.fr@SD" tvg-logo="https://i.imgur.com/TrecSeG.png" group-title="France",P2M TV (720p)
 https://vdo2.pro-fhi.net:3207/stream/play.m3u8
 #EXTINF:-1 tvg-id="PuissanceTV.fr@SD" tvg-logo="https://pbs.twimg.com/profile_images/1274572654016675842/A6v8Qo_X_400x400.jpg" group-title="France",Puissance TV
@@ -175,6 +177,8 @@ http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/1038/index.m3u8
 https://d15aro46bnpfm8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fqkqiax1078up/RMC_Story_FR.m3u8
 #EXTINF:-1 tvg-id="RTFrance.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png" group-title="France",RT France (1080p) [Geo-blocked]
 https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8
+#EXTINF:-1 tvg-id="RTFrance.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png" group-title="France",RT France (1080p) [Geo-blocked] (Secours 2)
+https://rt-fra.rttv.com/live/rtfrance/playlist.m3u8
 #EXTINF:-1 tvg-id="ScreamIN.fr@SD" tvg-logo="https://i.imgur.com/tGmKbil.png" group-title="France",ScreamIN (1080p)
 https://rakutenaa-zylo-screamin-rakuten-p11ej.amagi.tv/playlist/rakutenAA-zylo-screamin-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-id="SonyOneBlacklist.fr@HD" tvg-logo="https://i.imgur.com/uJC8rXr.png" group-title="France",Sony One Blacklist (1080p)
@@ -183,6 +187,8 @@ https://06cb85ad6ccb4a6b97f561e62d16ad3f.mediatailor.us-west-2.amazonaws.com/v1/
 https://d1x87j1jmcypab.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="SonyOneFavoris.fr@HD" tvg-logo="https://i.imgur.com/RO4AM4b.png" group-title="France",Sony One Favoris (1080p)
 https://49d735318d6b4c30a24a7997ea594e1b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-820-FR-SONYONEFAVORIS-LG_FR/playlist.m3u8
+#EXTINF:-1 tvg-id="SonyOneFavoris.fr@HD" tvg-logo="https://i.imgur.com/RO4AM4b.png" group-title="France",Sony One Favoris (1080p) (Secours 2)
+https://d21fkiqbljd83t.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="SonyOneHitsAction.fr@HD" tvg-logo="https://i.imgur.com/pXsZEsR.png" group-title="France",Sony One Hits Action (1080p)
 https://5098a8b860504a3690fd2e7c0a18d68f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-817-FR-SONYONEHITSACTION-LG_FR/playlist.m3u8
 #EXTINF:-1 tvg-id="SonyOneHitsAction.fr@HD" tvg-logo="https://i.imgur.com/pXsZEsR.png" group-title="France",Sony One Hits Action (1080p) (Secours 2)
@@ -473,7 +479,7 @@ https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RoyaTV.jo@SD" tvg-logo="https://i.imgur.com/WX80rty.png" group-title="Jordanie",Roya TV (Jordan) (1080p)
 https://live.kwikmotion.com/royatvpublic/royatv.smil/playlist.m3u8
 
-# ===== PALESTINE (20 entrées) =====
+# ===== PALESTINE (21 entrées) =====
 #EXTINF:-1 tvg-id="AjyalTV.ps@SD" tvg-logo="https://i.imgur.com/i6Y7beR.jpg" group-title="Palestine",Ajyal TV (720p)
 http://htvajyal.mada.ps:8888/ajyal/index.m3u8
 #EXTINF:-1 tvg-id="AlMadina.ps@SD" tvg-logo="https://i.imgur.com/NVOeM3P.png" group-title="Palestine",Al Madina (720p)
@@ -505,6 +511,8 @@ http://htvmada.mada.ps:8888/nabluslive/index.m3u8
 https://pbc.furrera.ps/PalestineEDU/index.m3u8
 #EXTINF:-1 tvg-id="PalestineToday.ps@SD" tvg-logo="https://i.imgur.com/BS8XXug.png" group-title="Palestine",Palestine Today (480p) [Geo-blocked]
 https://live.paltodaytv.com/paltv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Palestinetv.ir@SD" tvg-logo="https://i.ibb.co/svrZNZTX/Palestine.png" group-title="Palestine",Palestinetv (YouTube officiel)
+https://www.youtube.com/@palestinetvchannel/live
 #EXTINF:-1 tvg-id="RadioAlbaladTV.ps@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png" group-title="Palestine",Radio Albalad TV (720p)
 http://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/playlist.m3u8
 #EXTINF:-1 tvg-id="RajeenTV.ps@SD" tvg-logo="https://i.imgur.com/6Cx22ya.png" group-title="Palestine",Rajeen TV (1080p) [Not 24/7]
@@ -604,7 +612,7 @@ https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ZagrosTV.iq@SD" tvg-logo="https://i.imgur.com/9Mspf32.png" group-title="Irak",Zagros TV (Iraq) (1080p)
 https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8
 
-# ===== SYRIE (12 entrées) =====
+# ===== SYRIE (13 entrées) =====
 #EXTINF:-1 tvg-id="AlalamNewsChannelSyria.sy@SD" tvg-logo="https://i.imgur.com/WQKYPKD.png" group-title="Syrie",Alalam News Channel Syria (1080p)
 http://live2.alalam.ir/live/Alalam/index.m3u8
 #EXTINF:-1 tvg-id="Althania.sy@SD" tvg-logo="https://www.althania.tv/themes/custom/althania/assets/images/stv-logo.svg" group-title="Syrie",Althania (1080p)
@@ -626,6 +634,8 @@ https://www.youtube.com/@syriatelevision/live
 #EXTINF:-1 tvg-id="SyriaTV.sy@SD" tvg-logo="https://i.imgur.com/FjuVuXF.jpeg" group-title="Syrie",Syria TV (1080p)
 https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="SyriaTV.sy@SD" tvg-logo="https://i.imgur.com/FjuVuXF.jpeg" group-title="Syrie",Syria TV (1080p) (Secours 2)
+https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="SyriaTV.sy@SD" tvg-logo="https://i.imgur.com/FjuVuXF.jpeg" group-title="Syrie",Syria TV (1080p) (Secours 3)
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6017
 #EXTINF:-1 tvg-id="WelatTV.sy@HD" tvg-logo="https://avatars.githubusercontent.com/u/213803648?s=400&u=e27c09d39f813b9698de9c6559cbf7f196bf6fce&v=4" group-title="Syrie",Welat TV (1080i)
 https://stream.badinan.xyz/welat/tv/playlist.m3u8
@@ -653,6 +663,8 @@ https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
 https://live-hls-apps-ajm-fa.getaj.net/AJM/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraMubasher24.qa@SD" tvg-logo="https://i.imgur.com/LMCcIZ2.png" group-title="Qatar",Al Jazeera Mubasher 24 (1080p)
 https://live-hls-apps-ajm24-fa.getaj.net/AJM24/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraMubasher24.qa@SD" tvg-logo="https://i.imgur.com/LMCcIZ2.png" group-title="Qatar",Al Jazeera Mubasher 24 (1080p) (Secours 2)
+https://live-hls-web-ajm24-fa.getaj.net/AJM24/index.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraMubasherBroadcast2.qa@SD" tvg-logo="https://i.imgur.com/nJmi6G6.png" group-title="Qatar",Al Jazeera Mubasher Broadcast 2 (1080p)
 https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8
 #EXTINF:-1 tvg-id="AlkassThree.qa@SD" tvg-logo="https://i.imgur.com/d57BdFh.png" group-title="Qatar",Alkass Three (Secours 2)
@@ -671,8 +683,6 @@ https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8
 https://live.kwikmotion.com/qtv1live/qtv1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="QatarTelevision2.qa@SD" tvg-logo="https://i.imgur.com/iWJxDUm.png" group-title="Qatar",Qatar Television 2 (Secours 2)
 https://qatartv.akamaized.net/hls/live/20000611/qtv2/master.m3u8
-#EXTINF:-1 tvg-id="QatarTelevision2.qa@SD" tvg-logo="https://i.imgur.com/iWJxDUm.png" group-title="Qatar",Qatar Television 2 (Secours 3)
-https://qatartv.akamaized.net/hls/live/2026574/qtv2/master.m3u8
 #EXTINF:-1 tvg-id="QatarTelevision2.qa@SD" tvg-logo="https://i.imgur.com/iWJxDUm.png" group-title="Qatar",Qatar Television 2 (1080p)
 https://live.kwikmotion.com/qtv2live/qtv2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="QatarTVTheHolyQuran.qa@HD" tvg-logo="https://i.imgur.com/N5RB4sp.png" group-title="Qatar",Qatar TV The Holy Quran (Secours 2)
@@ -776,7 +786,7 @@ https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8
 #EXTINF:-1 tvg-id="WatarRadio.ae@SD" tvg-logo="https://sbauae.faulio.com/storage/mediagallery/d2/ad/fullhd_48adf2291d08266c05ed1b0c24f326c86b1095b7.png" group-title="Émirats arabes unis",Watar Radio (1080p)
 https://svs.itworkscdn.net/smcwatarlive/smcwatar/playlist.m3u8
 
-# ===== ARABIE SAOUDITE (46 entrées) =====
+# ===== ARABIE SAOUDITE (47 entrées) =====
 #EXTINF:-1 tvg-id="Aflam.sa@SD" tvg-logo="https://i.imgur.com/cTLj7Yt.png" group-title="Arabie saoudite",Aflam (1080p)
 https://shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8
 #EXTINF:-1 tvg-id="AlAlamAlYawm.sa@SD" tvg-logo="https://i.imgur.com/aAGjAoW.png" group-title="Arabie saoudite",Al Alam Al Yawm
@@ -785,6 +795,8 @@ https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/chunklist_b928000.m3u8
 https://live.alarabiya.net/alarabiapublish/alhadath.smil/alarabiapublish/alhadath_1080p/chunks.m3u8
 #EXTINF:-1 tvg-name="Al Hadath العربية" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ae/Al_Hadath_TV_logo_2023.svg" tvg-id="AlHadath.sa" tvg-chno="3" group-title="Arabie saoudite",Al Hadath العربية (Secours 3)
 https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AlHadath.sa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ae/Al_Hadath_TV_logo_2023.svg" group-title="Arabie saoudite",Al Hadath العربية (Secours 3)
+https://live.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlkhuzamaRadio.sa@SD" tvg-logo="https://shahid.mbc.net/mediaObject/61010cbc-91c5-4ce1-94a4-ed40adadb97b" group-title="Arabie saoudite",Alkhuzama Radio (1080p)
 https://live.kwikmotion.com/sbrksakhuzamaradiolive/srpkhuzama/playlist.m3u8
 #EXTINF:-1 tvg-name="Al Quran Al Kareem TV" tvg-logo="https://i.imgur.com/A2fJysM.png" tvg-id="AlQuranAlKareemTV.sa" tvg-chno="9" tvg-country="SA" group-title="Arabie saoudite",Al Quran Al Kareem TV
@@ -1202,7 +1214,7 @@ https://5790d294af2dc.streamlock.net/8124/8124/playlist.m3u8
 #EXTINF:-1 tvg-id="TNH.ht@SD" tvg-logo="https://i.imgur.com/8nvCXzt.png" group-title="Haïti",TNH (720p)
 https://bozztv.com/dvrfl03/hdirect/hdirect-telecaraibes/index.m3u8
 
-# ===== CANADA (45 entrées) =====
+# ===== CANADA (46 entrées) =====
 #EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBAFTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="Canada",Ici Radio-Canada Tele CBAFT-DT (Secours 2)
 https://rcavlive-dai.akamaized.net/hls/live/696614/cancbftprem/master.m3u8
 #EXTINF:-1 tvg-id="IciRadioCanadaTele.ca@CBAFTDT" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg/960px-Current_Logo_of_Ici_Radio-Canada_T%C3%A9l%C3%A9_%282016-present%29.svg.png" group-title="Canada",Ici Radio-Canada Tele CBAFT-DT (Secours 3)
@@ -1285,6 +1297,8 @@ https://temp3.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8
 http://live.greektv.ca/hls1/greektv.m3u8
 #EXTINF:-1 tvg-id="NatureTime.ca@France" tvg-logo="https://i.imgur.com/72JmyjM.png" group-title="Canada",NatureTime France (1080p)
 https://bamusa-naturetime-emea-fra-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NatureTime.ca@France" tvg-logo="https://i.imgur.com/72JmyjM.png" group-title="Canada",NatureTime France (1080p) (Secours 2)
+https://amg00090-blueantllc-lovenature-au-samsungau-wggcn.amagi.tv/playlist/amg00090-blueantllc-lovenature-au-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTeleEvangileSansLimite.ca@SD" tvg-logo="https://i.imgur.com/CL32kFA.png" group-title="Canada",Radio Tele Evangile Sans Limite
 https://5790d294af2dc.streamlock.net/8124/8124/chunklist.m3u8
 #EXTINF:-1 tvg-id="Savoirmedia.ca@CFTUDT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/97/Savoir_m%C3%A9dia_logo_3.png" group-title="Canada",Savoir media CFTU-DT (360p)
@@ -1523,7 +1537,7 @@ https://live-hls-web-aja.getaj.net/AJA/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/BwhledK.png" group-title="International",CGTN French
 https://dash4.antik.sk/live/test_cgtn_fra_tizen/playlist.m3u8
 
-# ===== ÉTATS-UNIS (63 entrées) =====
+# ===== ÉTATS-UNIS (62 entrées) =====
 #EXTINF:-1 tvg-id="3ABNFrench.us@SD" tvg-logo="https://i.imgur.com/B5gsM7m.png" group-title="États-Unis",3ABN French
 https://3abn.bozztv.com/3abn2/Fre_live/smil:Fre_live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlerteaMalibu.us@France" tvg-logo="https://i.imgur.com/hBiB6uk.png" group-title="États-Unis",Alerte a Malibu
@@ -1610,8 +1624,6 @@ https://jmp2.uk/plu-5f8edb6df1ebb800072edf10.m3u8
 https://brightstar-arabic-pull-secure.akamaized.net/brightstararabic/stream.m3u8
 #EXTINF:-1 tvg-id="LogosTV.us@SD" tvg-logo="https://i.imgur.com/h8DioXU.png" group-title="États-Unis",Logos TV (United States) (1080p) [Not 24/7]
 https://5a8308add0b31.streamlock.net/logoschannel.com/logostv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="LogosTV.us@SD" tvg-logo="https://i.imgur.com/h8DioXU.png" group-title="États-Unis",Logos TV (United States) (1080p) [Not 24/7] (Secours 2)
-https://597f64b67707a.streamlock.net/logoschannel.com/logostv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LouisLaBrocante.us@France" tvg-logo="https://i.imgur.com/I1w7rFb.png" group-title="États-Unis",Louis La Brocante
 https://jmp2.uk/plu-5f8ed6d569d2d4000864a976.m3u8
 #EXTINF:-1 tvg-id="MuslimNetworkTV.us@SD" tvg-logo="" group-title="États-Unis",Muslim Network TV
@@ -1825,12 +1837,12 @@ https://hls.afintl.com/hls/stream.m3u8
 https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCArabic.uk@SD" tvg-logo="https://i.imgur.com/ScyTG6P.png" group-title="UK",BBC Arabic (720p)
 https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
+#EXTINF:-1 tvg-id="BBCArabic.uk@SD" tvg-logo="https://i.imgur.com/ScyTG6P.png" group-title="UK",BBC Arabic (720p) (Secours 2)
+https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2_http.mpd
 #EXTINF:-1 tvg-id="Canaf54TV.uk@SD" tvg-logo="https://i.imgur.com/viB0FS2.png" group-title="UK",Canaf54 TV
 https://5caf24a595d94.streamlock.net:1937/pvyugfkzkc/pvyugfkzkc/playlist.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="UK",FIFA+ French (Secours 2)
 https://jmp2.uk/plu-660c29b5aec9680008f5b4a4.m3u8
-#EXTINF:-1 tvg-id="FIFAPlus.uk@French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="UK",FIFA+ French (Secours 3)
-https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="UK",FIFA+ French (720p)
 https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="HalaLondon.uk@SD" tvg-logo="https://i.imgur.com/bM4VZDH.png" group-title="UK",Hala London (1080p)
@@ -1840,7 +1852,7 @@ https://platform-iuoamc.uk/iptv/mca-tv/index.m3u8
 #EXTINF:-1 tvg-id="MrBeanAnimated.uk@FR" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" group-title="UK",Mr Bean Animated FR (1080p)
 https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8
 #EXTINF:-1 tvg-id="MrBeanAnimated.uk@FR" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Mr._Bean_Animated_Series_stacked_logo.png" group-title="UK",Mr Bean Animated FR (1080p) (Secours 2)
-https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
+https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA1World.uk@SD" tvg-logo="https://i.imgur.com/bYiRfAg.png" group-title="UK",MTA1 World (720p)
 https://chlivemta1.akamaized.net/hls/live/2008145/mta1/playlist.m3u8
 #EXTINF:-1 tvg-id="MTA2Europe.uk@SD" tvg-logo="https://i.imgur.com/aVts0sz.png" group-title="UK",MTA2 Europe (720p)
@@ -1862,7 +1874,7 @@ https://cd198.anystream.uk:9092/iqapp/t5kb86tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeOne.uk@French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" group-title="UK",Zee One French (720p)
 https://7689426c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1mcl9aZWVNYWdpY19ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeOne.uk@French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/24/Zee_One_Logo_2025.png" group-title="UK",Zee One French (720p) (Secours 2)
-https://4bc5d2b3.wurl.com/v1/asia_tv_limited_zeeworld_1/ohlscdn_us/V00000001/7200/HLS/playlist.m3u8
+https://amg17931-zee-amg17931c6-samsung-au-8872.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeeworld-samsungau/playlist.m3u8
 
 # ===== MAURITANIE (1 entrées) =====
 #EXTINF:-1 tvg-id="AlMouritaniya.mr" tvg-logo="" group-title="Mauritanie",Télévision de Mauritanie (YouTube officiel)
