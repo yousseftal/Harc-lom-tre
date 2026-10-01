@@ -14,6 +14,7 @@ on:
       - 'tools/add_deep_research_round3.py'
       - 'tools/harvest_global_public_indexes.py'
       - 'tools/add_official_youtube_backups.py'
+      - 'tools/add_nilesat_verified.py'
       - 'tools/fix_country_overrides.py'
       - '.github/workflows/update-playlist.yml'
   schedule:
@@ -55,6 +56,8 @@ jobs:
         run: python3 tools/harvest_global_public_indexes.py
       - name: Add stable official YouTube live fallbacks
         run: python3 tools/add_official_youtube_backups.py
+      - name: Add verified Nilesat live sources
+        run: python3 tools/add_nilesat_verified.py
       - name: Correct known country metadata
         run: python3 tools/fix_country_overrides.py
       - name: Final legal filter
