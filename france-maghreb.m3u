@@ -1,12 +1,12 @@
 #EXTM3U
 # Filtre légal: 0 flux privés/premium/à risque exclus
 # Secours YouTube officiels: 22 liens /live ajoutés (aucune URL googlevideo temporaire)
-# Récolte mondiale d'index publics: 37 candidats testés, 27 actifs, 27 secours ajoutés
+# Récolte mondiale d'index publics: 37 candidats testés, 28 actifs, 28 secours ajoutés
 # Recherche approfondie 3: 8 liens testés, 1 actifs, 0 ajoutés (0 nouvelles chaînes, 0 secours)
 # Recherche approfondie 2: 19 liens testés, 19 actifs, 7 ajoutés (2 nouvelles chaînes, 5 secours)
-# Recherche approfondie: 69 liens publics testés, 26 actifs, 9 ajoutés (5 nouvelles chaînes, 4 secours)
+# Recherche approfondie: 69 liens publics testés, 27 actifs, 10 ajoutés (5 nouvelles chaînes, 5 secours)
 # M3U.CL vérifié: 0 candidats arabes/francophones testés, 0 actifs, 0 ajoutés (0 nouvelles chaînes, 0 secours)
-# Vérification fichier utilisateur: 88 liens testés, 39 actifs; doublons renommés en secours: 1
+# Vérification fichier utilisateur: 88 liens testés, 40 actifs; doublons renommés en secours: 1
 # Import fichier utilisateur: 34 nouveaux liens testés, 5 actifs, 5 ajoutés (5 nouvelles chaînes, 0 secours)
 # Ajouts Tunisie vérifiés: 1 flux ajoutés, 1 nouvelles chaînes, 25 candidats testés
 # Ajouts vérifiés Internet: 4 flux actifs sur 4 chaînes
@@ -642,7 +642,7 @@ https://5a3ed7a72ed4b.streamlock.net/zagrostv/SMIL:myStream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ZagrosTV.iq@SD" tvg-logo="https://i.imgur.com/9Mspf32.png" group-title="Irak",Zagros TV (Iraq) (1080p)
 https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8
 
-# ===== SYRIE (12 entrées) =====
+# ===== SYRIE (13 entrées) =====
 #EXTINF:-1 tvg-id="AlalamNewsChannelSyria.sy@SD" tvg-logo="https://i.imgur.com/WQKYPKD.png" group-title="Syrie",Alalam News Channel Syria (1080p)
 http://live2.alalam.ir/alalam.m3u8
 #EXTINF:-1 tvg-id="Althania.sy@SD" tvg-logo="https://www.althania.tv/themes/custom/althania/assets/images/stv-logo.svg" group-title="Syrie",Althania (1080p)
@@ -662,6 +662,8 @@ https://www.youtube.com/@syriatelevision/live
 #EXTINF:-1 tvg-id="SyriaTV.sy@SD" tvg-logo="https://i.imgur.com/FjuVuXF.jpeg" group-title="Syrie",Syria TV (1080p)
 https://live.kwikmotion.com/syriatvlive/syriatv.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="SyriaTV.sy@SD" tvg-logo="https://i.imgur.com/FjuVuXF.jpeg" group-title="Syrie",Syria TV (1080p) (Secours 2)
+https://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="SyriaTV.sy@SD" tvg-logo="https://i.imgur.com/FjuVuXF.jpeg" group-title="Syrie",Syria TV (1080p) (Secours 3)
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=6017
 #EXTINF:-1 tvg-id="WelatTV.sy@HD" tvg-logo="https://avatars.githubusercontent.com/u/213803648?s=400&u=e27c09d39f813b9698de9c6559cbf7f196bf6fce&v=4" group-title="Syrie",Welat TV (1080i)
 https://stream.badinan.xyz/welat/tv/playlist.m3u8
@@ -817,7 +819,7 @@ https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8
 #EXTINF:-1 tvg-id="WatarRadio.ae@SD" tvg-logo="https://sbauae.faulio.com/storage/mediagallery/d2/ad/fullhd_48adf2291d08266c05ed1b0c24f326c86b1095b7.png" group-title="Émirats arabes unis",Watar Radio (1080p)
 https://svs.itworkscdn.net/smcwatarlive/smcwatar/playlist.m3u8
 
-# ===== ARABIE SAOUDITE (48 entrées) =====
+# ===== ARABIE SAOUDITE (49 entrées) =====
 #EXTINF:-1 tvg-id="Aflam.sa@SD" tvg-logo="https://i.imgur.com/cTLj7Yt.png" group-title="Arabie saoudite",Aflam (1080p)
 https://shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8
 #EXTINF:-1 tvg-id="AlAlamAlYawm.sa@SD" tvg-logo="https://i.imgur.com/aAGjAoW.png" group-title="Arabie saoudite",Al Alam Al Yawm
@@ -853,6 +855,8 @@ https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
 https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="AsharqNews.sa@SD" tvg-logo="https://i.imgur.com/bqRC3sl.png" group-title="Arabie saoudite",Asharq News (1080p)
 https://live-news.asharq.com/asharq.m3u8
+#EXTINF:-1 tvg-id="AsharqNews.sa@SD" tvg-logo="https://i.imgur.com/bqRC3sl.png" group-title="Arabie saoudite",Asharq News (1080p) (Secours 2)
+https://svs.itworkscdn.net/bloomberarlive/bloomberg.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="AsharqRadio.sa@SD" tvg-logo="https://i.imgur.com/M6K8cD3.jpeg" group-title="Arabie saoudite",Asharq Radio (1080p)
 https://svs.itworkscdn.net/asharqradiovlive/asharqradiov/playlist.m3u8
 #EXTINF:-1 tvg-id="AtfalMawahebTV.sa@SD" tvg-logo="https://i.imgur.com/Y2BqP9m.png" group-title="Arabie saoudite",Atfal & Mawaheb TV (1080p)
